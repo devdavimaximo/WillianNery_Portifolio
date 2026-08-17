@@ -4,15 +4,14 @@ import { copy } from '../content/copy'
 import { useSmoothScroll } from '../hooks/useSmoothScroll'
 
 /**
- * Navigation points at all pages that now exist.
- * The WhatsApp action is now live (content/copy.md).
+ * Navigation points at sections within the single landing page via anchor links.
  */
 function navItems() {
   return [
-    { label: copy('nav.portfolio'), to: '/portfolio' },
-    { label: copy('nav.about'), to: '/about' },
-    { label: copy('nav.services'), to: '/about' },
-    { label: copy('nav.contact'), to: '/contact' },
+    { label: copy('nav.portfolio'), to: '#portfolio-wedding' },
+    { label: copy('nav.about'), to: '#sobre' },
+    { label: copy('nav.services'), to: '#servicos' },
+    { label: copy('nav.contact'), to: '#contato' },
   ]
 }
 

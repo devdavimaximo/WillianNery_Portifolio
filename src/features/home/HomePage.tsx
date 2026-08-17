@@ -1,9 +1,11 @@
 import { SeoHead } from '../../lib/seo'
 import { copy } from '../../content/copy'
 import { ContactCta } from './sections/ContactCta'
-import { CuratedWork } from './sections/CuratedWork'
 import { Hero } from './sections/Hero'
 import { Intro } from './sections/Intro'
+import { BioSection } from './sections/BioSection'
+import { ServicesSection } from './sections/ServicesSection'
+import { PortfolioGalleries } from './sections/PortfolioGalleries'
 
 function HomePage() {
   return (
@@ -11,7 +13,9 @@ function HomePage() {
       <SeoHead title={copy('site.name')} description={copy('seo.home.description')} />
       <Hero />
       <Intro />
-      <CuratedWork />
+      <BioSection />
+      <ServicesSection />
+      <PortfolioGalleries />
       <ContactCta />
     </>
   )

@@ -14,9 +14,7 @@
   line-height: var(--leading-display);
   letter-spacing: var(--tracking-display);
   font-variation-settings: 'wdth' var(--width-display);
-  word-break: keep-all;
   color: var(--color-text);
-  max-width: 90%;
 }
 
 .title {

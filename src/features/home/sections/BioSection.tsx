@@ -15,7 +15,7 @@ export function BioSection() {
 
         <div className={styles.photo}>
           <Figure
-            slug="img_willian_sobre"
+            slug="image"
             alt="Retrato de William Nery, fotógrafo"
             sizes="(min-width: 64rem) 40vw, 92vw"
             ratio="1 / 1"

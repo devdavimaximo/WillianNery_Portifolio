@@ -1,4 +1,40 @@
 {
+  "image": {
+    "slug": "image",
+    "source": "/images/image.png",
+    "sourceFormat": "png",
+    "width": 640,
+    "height": 640,
+    "sourceBytes": 227174,
+    "lqip": "data:image/webp;base64,UklGRoYAAABXRUJQVlA4IHoAAADQBACdASoYABgAPu1ur1IppiQiqAgBMB2JZwDHMAxAvdK0dThitDEPZskGJXamAAD+3uxwiZMETiJRJ1sWPDlGMJuRSVLS+ihEMON/1sd4t5jyJcep4ky7i083W30uBGRWSmWSuZUMtYyHlBRCNkQtWAXKBidP+OAAAA==",
+    "variants": [
+      {
+        "format": "avif",
+        "width": 480,
+        "path": "/images/derived/image-480.avif",
+        "bytes": 14868
+      },
+      {
+        "format": "webp",
+        "width": 480,
+        "path": "/images/derived/image-480.webp",
+        "bytes": 17264
+      },
+      {
+        "format": "avif",
+        "width": 640,
+        "path": "/images/derived/image-640.avif",
+        "bytes": 20832
+      },
+      {
+        "format": "webp",
+        "width": 640,
+        "path": "/images/derived/image-640.webp",
+        "bytes": 23942
+      }
+    ],
+    "hash": "60d4d6c104ecfdbd"
+  },
   "img_willian_sobre": {
     "slug": "img_willian_sobre",
     "source": "/images/img_willian_sobre.png",

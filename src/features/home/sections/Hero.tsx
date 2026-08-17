@@ -37,46 +37,46 @@ export function Hero() {
         />
       </Head>
 
-      <Container width="bleed">
-        <div className={styles.photo}>
-          <Figure
-            slug={HERO_SLUG}
-            alt={copy(`image.${HERO_SLUG}.alt`)}
-            sizes="100vw"
-            ratio="var(--hero-ratio)"
-            priority
-            flush
-          />
-        </div>
-      </Container>
+      <div className={styles.photo}>
+        <Figure
+          slug={HERO_SLUG}
+          alt={copy(`image.${HERO_SLUG}.alt`)}
+          sizes="100vw"
+          ratio="var(--hero-ratio)"
+          priority
+          flush
+        />
+      </div>
 
       <Container>
         <div className={styles.text}>
-          <Display id="hero-title">{copy('home.hero.headline')}</Display>
-          <Essay>{copy('home.hero.subtitle')}</Essay>
-        </div>
-
-        <div className={styles.actions}>
-          {whatsappPending ? (
-            <Button variant="primary" disabled aria-describedby="cta-pending">
-              {copy('home.cta.primary')}
-            </Button>
-          ) : (
-            <Button variant="primary" href={copy('contact.whatsapp.number')}>
-              {copy('home.cta.primary')}
-            </Button>
-          )}
-
-          <Button href="#trabalho" variant="quiet">
-            {copy('home.cta.secondary')}
-          </Button>
-        </div>
-
-        {whatsappPending && (
-          <div className={styles.blocked} id="cta-pending">
-            <Caption>{pendingNote('contact.whatsapp.number')}</Caption>
+          <div>
+            <Display id="hero-title">{copy('home.hero.headline')}</Display>
+            <Essay>{copy('home.hero.subtitle')}</Essay>
           </div>
-        )}
+
+          <div className={styles.actions}>
+            {whatsappPending ? (
+              <Button variant="primary" disabled aria-describedby="cta-pending">
+                {copy('home.cta.primary')}
+              </Button>
+            ) : (
+              <Button variant="primary" href={copy('contact.whatsapp.number')}>
+                {copy('home.cta.primary')}
+              </Button>
+            )}
+
+            <Button href="#portfolio-wedding" variant="quiet">
+              {copy('home.cta.secondary')}
+            </Button>
+          </div>
+
+          {whatsappPending && (
+            <div className={styles.blocked} id="cta-pending">
+              <Caption>{pendingNote('contact.whatsapp.number')}</Caption>
+            </div>
+          )}
+        </div>
       </Container>
     </section>
   )

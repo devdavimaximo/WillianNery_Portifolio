@@ -1,0 +1,67 @@
+/**
+ * Curated excerpt, not an archive: a handful of photographs, each with room to be
+ * looked at. The grid breaks its own rhythm on purpose — two columns of unequal
+ * weight, so the page reads as a spread rather than a contact sheet.
+ */
+
+.section {
+  padding-block: var(--space-band);
+  border-top: var(--border-width) solid var(--color-rule);
+}
+
+.grid {
+  display: grid;
+  gap: var(--space-6);
+  margin-top: var(--space-7);
+}
+
+.item {
+  min-width: 0;
+  /**
+   * Skips rendering work for plates still far off-screen. The intrinsic size keeps the
+   * scrollbar honest, so this buys frames without costing layout stability.
+   */
+  content-visibility: auto;
+  contain-intrinsic-size: auto 32rem;
+}
+
+.categories {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2) var(--space-5);
+  padding-bottom: var(--space-5);
+  border-bottom: var(--border-width) solid var(--color-rule);
+}
+
+@media (min-width: 48rem) {
+  .grid {
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+    gap: var(--space-7) var(--space-6);
+    align-items: start;
+  }
+
+  /* 3 + 3 */
+  .item:nth-child(1),
+  .item:nth-child(2) {
+    grid-column: span 3;
+  }
+
+  /* A single wide plate breaks the pair rhythm. */
+  .item:nth-child(3) {
+    grid-column: span 6;
+  }
+
+  /* 2 + 2 + 2 */
+  .item:nth-child(4),
+  .item:nth-child(5),
+  .item:nth-child(6) {
+    grid-column: span 2;
+  }
+}
+
+@media (min-width: 64rem) {
+  /* The wide plate steps in from the edges so it reads as a held breath. */
+  .item:nth-child(3) {
+    grid-column: 2 / span 4;
+  }
+}

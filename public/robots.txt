@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+# Página interna de verificação do design system — não faz parte do site.
+Disallow: /design-system
+
+# Sitemap e image sitemap entram na F6, junto com o domínio final.

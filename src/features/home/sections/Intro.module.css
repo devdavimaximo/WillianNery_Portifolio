@@ -1,0 +1,17 @@
+.section {
+  padding-block: var(--space-band);
+  border-top: var(--border-width) solid var(--color-rule);
+}
+
+/* One size up from body prose: this paragraph carries the page's voice. */
+.lead {
+  font-size: clamp(1.1875rem, 1.9vw, 1.5rem);
+  line-height: 1.55;
+  max-width: 34ch;
+}
+
+@media (min-width: 48rem) {
+  .lead {
+    max-width: 46ch;
+  }
+}

@@ -1,0 +1,23 @@
+.section {
+  padding-block: var(--space-band);
+  border-top: var(--border-width) solid var(--color-rule);
+}
+
+.inner {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-6);
+  align-items: flex-start;
+}
+
+.line {
+  font-size: clamp(1.75rem, 5vw, 3.25rem);
+  max-width: 20ch;
+}
+
+.blocked {
+  max-width: var(--measure-body);
+  padding: var(--space-3) var(--space-4);
+  border-left: 2px solid var(--color-accent);
+  background-color: var(--color-surface-raised);
+}

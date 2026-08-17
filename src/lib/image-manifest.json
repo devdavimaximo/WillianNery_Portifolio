@@ -1,0 +1,2090 @@
+{
+  "img_willian_sobre": {
+    "slug": "img_willian_sobre",
+    "source": "/images/img_willian_sobre.png",
+    "sourceFormat": "png",
+    "width": 1080,
+    "height": 1080,
+    "sourceBytes": 1047807,
+    "lqip": "data:image/webp;base64,UklGRnQAAABXRUJQVlA4IGgAAAAwBACdASoYABgAPu1qr1CppaQiqAqpMB2JYwAALaQDbnsmR84WxgGJaQAA/t6zpLhBNNpPTIoC+e8Sd1raJD9w4RinhWXiqYUOEGe5lHn3m1+qq/nEqy+PPnx19tXE+xeHKQVEkMAAAA==",
+    "variants": [
+      {
+        "format": "avif",
+        "width": 480,
+        "path": "/images/derived/img_willian_sobre-480.avif",
+        "bytes": 25537
+      },
+      {
+        "format": "webp",
+        "width": 480,
+        "path": "/images/derived/img_willian_sobre-480.webp",
+        "bytes": 30122
+      },
+      {
+        "format": "avif",
+        "width": 768,
+        "path": "/images/derived/img_willian_sobre-768.avif",
+        "bytes": 62243
+      },
+      {
+        "format": "webp",
+        "width": 768,
+        "path": "/images/derived/img_willian_sobre-768.webp",
+        "bytes": 65424
+      },
+      {
+        "format": "avif",
+        "width": 1080,
+        "path": "/images/derived/img_willian_sobre-1080.avif",
+        "bytes": 103113
+      },
+      {
+        "format": "webp",
+        "width": 1080,
+        "path": "/images/derived/img_willian_sobre-1080.webp",
+        "bytes": 114534
+      }
+    ],
+    "hash": "0a7a97c334ff1493"
+  },
+  "portifolio_willian_casamento": {
+    "slug": "portifolio_willian_casamento",
+    "source": "/images/portifolio_willian_casamento.jpg",
+    "sourceFormat": "webp",
+    "width": 1080,
+    "height": 1440,
+    "sourceBytes": 88214,
+    "lqip": "data:image/webp;base64,UklGRo4AAABXRUJQVlA4IIIAAACwBQCdASoYACAAPu1wsFKppiSiqAgBMB2JaQAALdhCbVh5QJ//J6cj8G4n0PtIfQNUP8+HmAAA/tYZTEm2fCJOIM9DhdB/HeYkhS++5SlqD31T5xEEEt92+ypu5kbPMCCFprOfxb8ch5lVFiNeM1urO/sGdxRA4y+cG8Nj8eQrAAAA",
+    "variants": [
+      {
+        "format": "avif",
+        "width": 480,
+        "path": "/images/derived/portifolio_willian_casamento-480.avif",
+        "bytes": 27625
+      },
+      {
+        "format": "webp",
+        "width": 480,
+        "path": "/images/derived/portifolio_willian_casamento-480.webp",
+        "bytes": 31610
+      },
+      {
+        "format": "avif",
+        "width": 768,
+        "path": "/images/derived/portifolio_willian_casamento-768.avif",
+        "bytes": 54544
+      },
+      {
+        "format": "webp",
+        "width": 768,
+        "path": "/images/derived/portifolio_willian_casamento-768.webp",
+        "bytes": 60322
+      },
+      {
+        "format": "avif",
+        "width": 1080,
+        "path": "/images/derived/portifolio_willian_casamento-1080.avif",
+        "bytes": 89842
+      },
+      {
+        "format": "webp",
+        "width": 1080,
+        "path": "/images/derived/portifolio_willian_casamento-1080.webp",
+        "bytes": 94068
+      }
+    ],
+    "hash": "e25ca9c0e050f10d"
+  },
+  "portifolio_willian_casamento10": {
+    "slug": "portifolio_willian_casamento10",
+    "source": "/images/portifolio_willian_casamento10.jpg",
+    "sourceFormat": "jpeg",
+    "width": 2774,
+    "height": 3698,
+    "sourceBytes": 566688,
+    "lqip": "data:image/webp;base64,UklGRo4AAABXRUJQVlA4IIIAAACwBACdASoYACAAPu1iqE2ppaOiMAgBMB2JZwDMWBjFUpoeNzfLB4GS/3ge4NgAAP7ZX8RL8EAN6qyfVc/mrBpbOSq5OgYAvdUY6435fXwd9zCMmtKVPFdWV1DouMT9oBd8MjlHLK/QKRywXRZPEDoEzXnnB6WcmBYOKoOMNxzpoAAA",
+    "variants": [
+      {
+        "format": "avif",
+        "width": 480,
+        "path": "/images/derived/portifolio_willian_casamento10-480.avif",
+        "bytes": 25861
+      },
+      {
+        "format": "webp",
+        "width": 480,
+        "path": "/images/derived/portifolio_willian_casamento10-480.webp",
+        "bytes": 32316
+      },
+      {
+        "format": "avif",
+        "width": 768,
+        "path": "/images/derived/portifolio_willian_casamento10-768.avif",
+        "bytes": 52598
+      },
+      {
+        "format": "webp",
+        "width": 768,
+        "path": "/images/derived/portifolio_willian_casamento10-768.webp",
+        "bytes": 65636
+      },
+      {
+        "format": "avif",
+        "width": 1080,
+        "path": "/images/derived/portifolio_willian_casamento10-1080.avif",
+        "bytes": 87253
+      },
+      {
+        "format": "webp",
+        "width": 1080,
+        "path": "/images/derived/portifolio_willian_casamento10-1080.webp",
+        "bytes": 109222
+      },
+      {
+        "format": "avif",
+        "width": 1440,
+        "path": "/images/derived/portifolio_willian_casamento10-1440.avif",
+        "bytes": 134248
+      },
+      {
+        "format": "webp",
+        "width": 1440,
+        "path": "/images/derived/portifolio_willian_casamento10-1440.webp",
+        "bytes": 164872
+      },
+      {
+        "format": "avif",
+        "width": 1920,
+        "path": "/images/derived/portifolio_willian_casamento10-1920.avif",
+        "bytes": 202621
+      },
+      {
+        "format": "webp",
+        "width": 1920,
+        "path": "/images/derived/portifolio_willian_casamento10-1920.webp",
+        "bytes": 244102
+      },
+      {
+        "format": "avif",
+        "width": 2560,
+        "path": "/images/derived/portifolio_willian_casamento10-2560.avif",
+        "bytes": 300419
+      },
+      {
+        "format": "webp",
+        "width": 2560,
+        "path": "/images/derived/portifolio_willian_casamento10-2560.webp",
+        "bytes": 347790
+      },
+      {
+        "format": "avif",
+        "width": 2774,
+        "path": "/images/derived/portifolio_willian_casamento10-2774.avif",
+        "bytes": 342727
+      },
+      {
+        "format": "webp",
+        "width": 2774,
+        "path": "/images/derived/portifolio_willian_casamento10-2774.webp",
+        "bytes": 385410
+      }
+    ],
+    "hash": "2ad19ef14f0249e4"
+  },
+  "portifolio_willian_casamento11": {
+    "slug": "portifolio_willian_casamento11",
+    "source": "/images/portifolio_willian_casamento11.jpg",
+    "sourceFormat": "jpeg",
+    "width": 2774,
+    "height": 3698,
+    "sourceBytes": 525493,
+    "lqip": "data:image/webp;base64,UklGRqYAAABXRUJQVlA4IJoAAACQBQCdASoYACAAPuVkpE2pJiMiMAwBIByJZQDBzBui3ywdIABSy5EqSCeXt+iaYNI6cPtq4AD+6I+L7XlMQeqwTfjZAu34WhpeQrengr38Tl2oJovy9uc7kPHP39Sm4vyZzDz3gVS0ij5UkLxqFjZ53GjS4vN5Cw1Iy6ZS8hnVtlHX+pdbbVUP2j36wFrB/hp9vXpz4j6ogAAA",
+    "variants": [
+      {
+        "format": "avif",
+        "width": 480,
+        "path": "/images/derived/portifolio_willian_casamento11-480.avif",
+        "bytes": 32592
+      },
+      {
+        "format": "webp",
+        "width": 480,
+        "path": "/images/derived/portifolio_willian_casamento11-480.webp",
+        "bytes": 45486
+      },
+      {
+        "format": "avif",
+        "width": 768,
+        "path": "/images/derived/portifolio_willian_casamento11-768.avif",
+        "bytes": 61560
+      },
+      {
+        "format": "webp",
+        "width": 768,
+        "path": "/images/derived/portifolio_willian_casamento11-768.webp",
+        "bytes": 83358
+      },
+      {
+        "format": "avif",
+        "width": 1080,
+        "path": "/images/derived/portifolio_willian_casamento11-1080.avif",
+        "bytes": 96363
+      },
+      {
+        "format": "webp",
+        "width": 1080,
+        "path": "/images/derived/portifolio_willian_casamento11-1080.webp",
+        "bytes": 128468
+      },
+      {
+        "format": "avif",
+        "width": 1440,
+        "path": "/images/derived/portifolio_willian_casamento11-1440.avif",
+        "bytes": 139612
+      },
+      {
+        "format": "webp",
+        "width": 1440,
+        "path": "/images/derived/portifolio_willian_casamento11-1440.webp",
+        "bytes": 185552
+      },
+      {
+        "format": "avif",
+        "width": 1920,
+        "path": "/images/derived/portifolio_willian_casamento11-1920.avif",
+        "bytes": 203098
+      },
+      {
+        "format": "webp",
+        "width": 1920,
+        "path": "/images/derived/portifolio_willian_casamento11-1920.webp",
+        "bytes": 267238
+      },
+      {
+        "format": "avif",
+        "width": 2560,
+        "path": "/images/derived/portifolio_willian_casamento11-2560.avif",
+        "bytes": 294533
+      },
+      {
+        "format": "webp",
+        "width": 2560,
+        "path": "/images/derived/portifolio_willian_casamento11-2560.webp",
+        "bytes": 376280
+      },
+      {
+        "format": "avif",
+        "width": 2774,
+        "path": "/images/derived/portifolio_willian_casamento11-2774.avif",
+        "bytes": 337868
+      },
+      {
+        "format": "webp",
+        "width": 2774,
+        "path": "/images/derived/portifolio_willian_casamento11-2774.webp",
+        "bytes": 409038
+      }
+    ],
+    "hash": "2799fce25f2f95ec"
+  },
+  "portifolio_willian_casamento12": {
+    "slug": "portifolio_willian_casamento12",
+    "source": "/images/portifolio_willian_casamento12.jpg",
+    "sourceFormat": "jpeg",
+    "width": 2774,
+    "height": 3698,
+    "sourceBytes": 461059,
+    "lqip": "data:image/webp;base64,UklGRoQAAABXRUJQVlA4IHgAAABwBQCdASoYACAAPu1iqE4ppSOiMBgMATAdiWcAznQMbiG2JwnJb3YDpyINfx0qbQ0UnnQAAP7MEq4GqT+MC3iTOqb2ss3uoCehPjCkteKS69HppvMH1k2qoA3F3ocM02cZe5K+PD5egdQkBsG8pDWYQxzBRNqgAAA=",
+    "variants": [
+      {
+        "format": "avif",
+        "width": 480,
+        "path": "/images/derived/portifolio_willian_casamento12-480.avif",
+        "bytes": 24496
+      },
+      {
+        "format": "webp",
+        "width": 480,
+        "path": "/images/derived/portifolio_willian_casamento12-480.webp",
+        "bytes": 30840
+      },
+      {
+        "format": "avif",
+        "width": 768,
+        "path": "/images/derived/portifolio_willian_casamento12-768.avif",
+        "bytes": 47437
+      },
+      {
+        "format": "webp",
+        "width": 768,
+        "path": "/images/derived/portifolio_willian_casamento12-768.webp",
+        "bytes": 58458
+      },
+      {
+        "format": "avif",
+        "width": 1080,
+        "path": "/images/derived/portifolio_willian_casamento12-1080.avif",
+        "bytes": 75721
+      },
+      {
+        "format": "webp",
+        "width": 1080,
+        "path": "/images/derived/portifolio_willian_casamento12-1080.webp",
+        "bytes": 92186
+      },
+      {
+        "format": "avif",
+        "width": 1440,
+        "path": "/images/derived/portifolio_willian_casamento12-1440.avif",
+        "bytes": 114219
+      },
+      {
+        "format": "webp",
+        "width": 1440,
+        "path": "/images/derived/portifolio_willian_casamento12-1440.webp",
+        "bytes": 136008
+      },
+      {
+        "format": "avif",
+        "width": 1920,
+        "path": "/images/derived/portifolio_willian_casamento12-1920.avif",
+        "bytes": 166920
+      },
+      {
+        "format": "webp",
+        "width": 1920,
+        "path": "/images/derived/portifolio_willian_casamento12-1920.webp",
+        "bytes": 197700
+      },
+      {
+        "format": "avif",
+        "width": 2560,
+        "path": "/images/derived/portifolio_willian_casamento12-2560.avif",
+        "bytes": 242785
+      },
+      {
+        "format": "webp",
+        "width": 2560,
+        "path": "/images/derived/portifolio_willian_casamento12-2560.webp",
+        "bytes": 290960
+      },
+      {
+        "format": "avif",
+        "width": 2774,
+        "path": "/images/derived/portifolio_willian_casamento12-2774.avif",
+        "bytes": 277236
+      },
+      {
+        "format": "webp",
+        "width": 2774,
+        "path": "/images/derived/portifolio_willian_casamento12-2774.webp",
+        "bytes": 322868
+      }
+    ],
+    "hash": "9720eea4c09f5f4d"
+  },
+  "portifolio_willian_casamento13": {
+    "slug": "portifolio_willian_casamento13",
+    "source": "/images/portifolio_willian_casamento13.jpg",
+    "sourceFormat": "jpeg",
+    "width": 1365,
+    "height": 1705,
+    "sourceBytes": 417791,
+    "lqip": "data:image/webp;base64,UklGRpYAAABXRUJQVlA4IIoAAACwBQCdASoYAB4APuFap02opSOiN/qoARAcCWUAt7gj/aAN65DAYIoepJAiY0VQy10tFshWBIAA/qZKV1NyvIG+wrT3OPQ/MbuSpQEK4RDCApLSU9N2C06a+8x0yBUa9USp+mnwpeTyqMBpkXZYfr9S3V342p85QYKp+++YXVnA+FMH22Ce2V0QAAA=",
+    "variants": [
+      {
+        "format": "avif",
+        "width": 480,
+        "path": "/images/derived/portifolio_willian_casamento13-480.avif",
+        "bytes": 74872
+      },
+      {
+        "format": "webp",
+        "width": 480,
+        "path": "/images/derived/portifolio_willian_casamento13-480.webp",
+        "bytes": 95782
+      },
+      {
+        "format": "avif",
+        "width": 768,
+        "path": "/images/derived/portifolio_willian_casamento13-768.avif",
+        "bytes": 173043
+      },
+      {
+        "format": "webp",
+        "width": 768,
+        "path": "/images/derived/portifolio_willian_casamento13-768.webp",
+        "bytes": 215040
+      },
+      {
+        "format": "avif",
+        "width": 1080,
+        "path": "/images/derived/portifolio_willian_casamento13-1080.avif",
+        "bytes": 312383
+      },
+      {
+        "format": "webp",
+        "width": 1080,
+        "path": "/images/derived/portifolio_willian_casamento13-1080.webp",
+        "bytes": 398886
+      },
+      {
+        "format": "avif",
+        "width": 1365,
+        "path": "/images/derived/portifolio_willian_casamento13-1365.avif",
+        "bytes": 389196
+      },
+      {
+        "format": "webp",
+        "width": 1365,
+        "path": "/images/derived/portifolio_willian_casamento13-1365.webp",
+        "bytes": 570638
+      }
+    ],
+    "hash": "980e36e8ecd6d0b7"
+  },
+  "portifolio_willian_casamento14": {
+    "slug": "portifolio_willian_casamento14",
+    "source": "/images/portifolio_willian_casamento14.jpg",
+    "sourceFormat": "jpeg",
+    "width": 1365,
+    "height": 1705,
+    "sourceBytes": 260070,
+    "lqip": "data:image/webp;base64,UklGRpQAAABXRUJQVlA4IIgAAADwBACdASoYAB4APtFWo02oJKMiN+gBABoJYwC3uCSMrpSovLg+2yX9WrpW21ChPYAA/vHSvwI3uVo6nD9qhssYeR+Pfj2QEcDPewrpfENiM4emnuIe0FZJPAYH1gnbUjhQmAVnTMl6CdbIQgrBdrOLVnY652q4HexAI2oxwaFI09o1jzohAAAA",
+    "variants": [
+      {
+        "format": "avif",
+        "width": 480,
+        "path": "/images/derived/portifolio_willian_casamento14-480.avif",
+        "bytes": 47084
+      },
+      {
+        "format": "webp",
+        "width": 480,
+        "path": "/images/derived/portifolio_willian_casamento14-480.webp",
+        "bytes": 55566
+      },
+      {
+        "format": "avif",
+        "width": 768,
+        "path": "/images/derived/portifolio_willian_casamento14-768.avif",
+        "bytes": 115911
+      },
+      {
+        "format": "webp",
+        "width": 768,
+        "path": "/images/derived/portifolio_willian_casamento14-768.webp",
+        "bytes": 138020
+      },
+      {
+        "format": "avif",
+        "width": 1080,
+        "path": "/images/derived/portifolio_willian_casamento14-1080.avif",
+        "bytes": 218681
+      },
+      {
+        "format": "webp",
+        "width": 1080,
+        "path": "/images/derived/portifolio_willian_casamento14-1080.webp",
+        "bytes": 249082
+      },
+      {
+        "format": "avif",
+        "width": 1365,
+        "path": "/images/derived/portifolio_willian_casamento14-1365.avif",
+        "bytes": 239631
+      },
+      {
+        "format": "webp",
+        "width": 1365,
+        "path": "/images/derived/portifolio_willian_casamento14-1365.webp",
+        "bytes": 373332
+      }
+    ],
+    "hash": "090fbd0b03ac1565"
+  },
+  "portifolio_willian_casamento15": {
+    "slug": "portifolio_willian_casamento15",
+    "source": "/images/portifolio_willian_casamento15.jpg",
+    "sourceFormat": "jpeg",
+    "width": 1440,
+    "height": 1764,
+    "sourceBytes": 347994,
+    "lqip": "data:image/webp;base64,UklGRpAAAABXRUJQVlA4IIQAAAAwBQCdASoYAB0APu1mq04ppaQiKA1RMB2JQBdgAiS9aT5Xhx+J/sn391eEeASiG/SGwAD+77/A+jAMCLBJuRI4vqvANPZXK+2I8wQUg5OAudUSYE1Xq+tbhsMgx0FaKn+gyjWl26V6T1V3M3BAEHqyFnJoh18a8dsDxMKsFePV0RfAAAA=",
+    "variants": [
+      {
+        "format": "avif",
+        "width": 480,
+        "path": "/images/derived/portifolio_willian_casamento15-480.avif",
+        "bytes": 30291
+      },
+      {
+        "format": "webp",
+        "width": 480,
+        "path": "/images/derived/portifolio_willian_casamento15-480.webp",
+        "bytes": 39912
+      },
+      {
+        "format": "avif",
+        "width": 768,
+        "path": "/images/derived/portifolio_willian_casamento15-768.avif",
+        "bytes": 60116
+      },
+      {
+        "format": "webp",
+        "width": 768,
+        "path": "/images/derived/portifolio_willian_casamento15-768.webp",
+        "bytes": 76278
+      },
+      {
+        "format": "avif",
+        "width": 1080,
+        "path": "/images/derived/portifolio_willian_casamento15-1080.avif",
+        "bytes": 98509
+      },
+      {
+        "format": "webp",
+        "width": 1080,
+        "path": "/images/derived/portifolio_willian_casamento15-1080.webp",
+        "bytes": 121944
+      },
+      {
+        "format": "avif",
+        "width": 1440,
+        "path": "/images/derived/portifolio_willian_casamento15-1440.avif",
+        "bytes": 174354
+      },
+      {
+        "format": "webp",
+        "width": 1440,
+        "path": "/images/derived/portifolio_willian_casamento15-1440.webp",
+        "bytes": 198554
+      }
+    ],
+    "hash": "966e179fde565ea2"
+  },
+  "portifolio_willian_casamento2": {
+    "slug": "portifolio_willian_casamento2",
+    "source": "/images/portifolio_willian_casamento2.jpg",
+    "sourceFormat": "webp",
+    "width": 1080,
+    "height": 1440,
+    "sourceBytes": 92382,
+    "lqip": "data:image/webp;base64,UklGRpgAAABXRUJQVlA4IIwAAADQBQCdASoYACAAPuVeo02pJSMiMAwBIByJYwC7ITNC8zDOgbZ7KM8ZaK9hLDiINZ6UbQvA2yygAP7q4qSxjGQC4gL3/NSC5aJMAh1/L88kNpVBW+saV7g4q3UFZz0k3BR0HZs4HGXW/9VwrkEtupFzEglTTbntUPT/CkyUYiQ8ZlzbgxHxlQLAriogAA==",
+    "variants": [
+      {
+        "format": "avif",
+        "width": 480,
+        "path": "/images/derived/portifolio_willian_casamento2-480.avif",
+        "bytes": 34366
+      },
+      {
+        "format": "webp",
+        "width": 480,
+        "path": "/images/derived/portifolio_willian_casamento2-480.webp",
+        "bytes": 42632
+      },
+      {
+        "format": "avif",
+        "width": 768,
+        "path": "/images/derived/portifolio_willian_casamento2-768.avif",
+        "bytes": 64616
+      },
+      {
+        "format": "webp",
+        "width": 768,
+        "path": "/images/derived/portifolio_willian_casamento2-768.webp",
+        "bytes": 74392
+      },
+      {
+        "format": "avif",
+        "width": 1080,
+        "path": "/images/derived/portifolio_willian_casamento2-1080.avif",
+        "bytes": 99403
+      },
+      {
+        "format": "webp",
+        "width": 1080,
+        "path": "/images/derived/portifolio_willian_casamento2-1080.webp",
+        "bytes": 103584
+      }
+    ],
+    "hash": "fa06d5f8916770fd"
+  },
+  "portifolio_willian_casamento3": {
+    "slug": "portifolio_willian_casamento3",
+    "source": "/images/portifolio_willian_casamento3.jpg",
+    "sourceFormat": "jpeg",
+    "width": 1440,
+    "height": 1764,
+    "sourceBytes": 235777,
+    "lqip": "data:image/webp;base64,UklGRpoAAABXRUJQVlA4II4AAABwBQCdASoYAB0APu1urVCppqQiqAqpMB2JbAC28IAA7NmILaWB1ljkuqHWvaB9CBJx/i2AAP7vwpbLYIB4rkib4nGRz3xEjHK18IB1RkHxOOxTOtDjP70mo7l1M+UYR3jfbMiAkk8WOljWljSUvRD2+UEVaUsHtxJaRFDOCVTw5gAlg8StRrEqzm9moAAA",
+    "variants": [
+      {
+        "format": "avif",
+        "width": 480,
+        "path": "/images/derived/portifolio_willian_casamento3-480.avif",
+        "bytes": 13953
+      },
+      {
+        "format": "webp",
+        "width": 480,
+        "path": "/images/derived/portifolio_willian_casamento3-480.webp",
+        "bytes": 17724
+      },
+      {
+        "format": "avif",
+        "width": 768,
+        "path": "/images/derived/portifolio_willian_casamento3-768.avif",
+        "bytes": 27143
+      },
+      {
+        "format": "webp",
+        "width": 768,
+        "path": "/images/derived/portifolio_willian_casamento3-768.webp",
+        "bytes": 34612
+      },
+      {
+        "format": "avif",
+        "width": 1080,
+        "path": "/images/derived/portifolio_willian_casamento3-1080.avif",
+        "bytes": 47659
+      },
+      {
+        "format": "webp",
+        "width": 1080,
+        "path": "/images/derived/portifolio_willian_casamento3-1080.webp",
+        "bytes": 58864
+      },
+      {
+        "format": "avif",
+        "width": 1440,
+        "path": "/images/derived/portifolio_willian_casamento3-1440.avif",
+        "bytes": 95996
+      },
+      {
+        "format": "webp",
+        "width": 1440,
+        "path": "/images/derived/portifolio_willian_casamento3-1440.webp",
+        "bytes": 99366
+      }
+    ],
+    "hash": "749047b092d84f6f"
+  },
+  "portifolio_willian_casamento4": {
+    "slug": "portifolio_willian_casamento4",
+    "source": "/images/portifolio_willian_casamento4.jpg",
+    "sourceFormat": "jpeg",
+    "width": 1365,
+    "height": 1706,
+    "sourceBytes": 250388,
+    "lqip": "data:image/webp;base64,UklGRqIAAABXRUJQVlA4IJYAAADQBQCdASoYAB4APt1ap02opSOiN/qoARAbiUAVIqQAPwysW1ydqO9/45qYcG+NO6N6/Q90BWsAAP0hiGckziPrsBv9uCqynsMDFe4fFKQVkLWvT8PXDxHxoigzsl98t9tyvSuchypRE4mdOP7jt3NTQ55UI4YwhO57dbKGw2FY7NInuY/W/et/geT+XguStdoW2hUdngA=",
+    "variants": [
+      {
+        "format": "avif",
+        "width": 480,
+        "path": "/images/derived/portifolio_willian_casamento4-480.avif",
+        "bytes": 21223
+      },
+      {
+        "format": "webp",
+        "width": 480,
+        "path": "/images/derived/portifolio_willian_casamento4-480.webp",
+        "bytes": 27778
+      },
+      {
+        "format": "avif",
+        "width": 768,
+        "path": "/images/derived/portifolio_willian_casamento4-768.avif",
+        "bytes": 37169
+      },
+      {
+        "format": "webp",
+        "width": 768,
+        "path": "/images/derived/portifolio_willian_casamento4-768.webp",
+        "bytes": 48000
+      },
+      {
+        "format": "avif",
+        "width": 1080,
+        "path": "/images/derived/portifolio_willian_casamento4-1080.avif",
+        "bytes": 58487
+      },
+      {
+        "format": "webp",
+        "width": 1080,
+        "path": "/images/derived/portifolio_willian_casamento4-1080.webp",
+        "bytes": 74292
+      },
+      {
+        "format": "avif",
+        "width": 1365,
+        "path": "/images/derived/portifolio_willian_casamento4-1365.avif",
+        "bytes": 85523
+      },
+      {
+        "format": "webp",
+        "width": 1365,
+        "path": "/images/derived/portifolio_willian_casamento4-1365.webp",
+        "bytes": 110044
+      }
+    ],
+    "hash": "acc6bac0818a3a75"
+  },
+  "portifolio_willian_casamento5": {
+    "slug": "portifolio_willian_casamento5",
+    "source": "/images/portifolio_willian_casamento5.jpg",
+    "sourceFormat": "jpeg",
+    "width": 1365,
+    "height": 1705,
+    "sourceBytes": 298635,
+    "lqip": "data:image/webp;base64,UklGRowAAABXRUJQVlA4IIAAAABwBQCdASoYAB4APu1mqk2ppaQiMAgBMB2JZQDKABexhGY4A9dWHMQeRDAwfVlfwkxT75ikAP58NQGiBoJ8H5jVlTmOe8T5fpicFPZk/XlZmn/FDy4UYTKbDgXLYdrWe9qqcdMJFe53HqBU6fvASXCR7pNaxAED1HPIielN0kgAAA==",
+    "variants": [
+      {
+        "format": "avif",
+        "width": 480,
+        "path": "/images/derived/portifolio_willian_casamento5-480.avif",
+        "bytes": 68494
+      },
+      {
+        "format": "webp",
+        "width": 480,
+        "path": "/images/derived/portifolio_willian_casamento5-480.webp",
+        "bytes": 85522
+      },
+      {
+        "format": "avif",
+        "width": 768,
+        "path": "/images/derived/portifolio_willian_casamento5-768.avif",
+        "bytes": 136653
+      },
+      {
+        "format": "webp",
+        "width": 768,
+        "path": "/images/derived/portifolio_willian_casamento5-768.webp",
+        "bytes": 170876
+      },
+      {
+        "format": "avif",
+        "width": 1080,
+        "path": "/images/derived/portifolio_willian_casamento5-1080.avif",
+        "bytes": 218980
+      },
+      {
+        "format": "webp",
+        "width": 1080,
+        "path": "/images/derived/portifolio_willian_casamento5-1080.webp",
+        "bytes": 283660
+      },
+      {
+        "format": "avif",
+        "width": 1365,
+        "path": "/images/derived/portifolio_willian_casamento5-1365.avif",
+        "bytes": 272749
+      },
+      {
+        "format": "webp",
+        "width": 1365,
+        "path": "/images/derived/portifolio_willian_casamento5-1365.webp",
+        "bytes": 376596
+      }
+    ],
+    "hash": "0378bf742e53c3af"
+  },
+  "portifolio_willian_casamento6": {
+    "slug": "portifolio_willian_casamento6",
+    "source": "/images/portifolio_willian_casamento6.jpg",
+    "sourceFormat": "jpeg",
+    "width": 1365,
+    "height": 1705,
+    "sourceBytes": 328568,
+    "lqip": "data:image/webp;base64,UklGRrgAAABXRUJQVlA4IKwAAAAQBgCdASoYAB4APu1srlIppaQiqAgBMB2JZQC90FYLVVlzTrjgf20iMDvBz2UrNyYxQTEcrhhAVywA/uRPCKXsVNB72JUW3SuYALHZyCOVuFRhXUuH5qz0ocqc84P9kNsdtz56tnUJ9cfcRQlmnSzoi4T3mBENx6Zxxyo6V92DE2gSnbEji54FF1PjQONlZj5sPUQyTRuq03/m1ZLEpeuANi9SDF3MaGxGAAAA",
+    "variants": [
+      {
+        "format": "avif",
+        "width": 480,
+        "path": "/images/derived/portifolio_willian_casamento6-480.avif",
+        "bytes": 71975
+      },
+      {
+        "format": "webp",
+        "width": 480,
+        "path": "/images/derived/portifolio_willian_casamento6-480.webp",
+        "bytes": 88374
+      },
+      {
+        "format": "avif",
+        "width": 768,
+        "path": "/images/derived/portifolio_willian_casamento6-768.avif",
+        "bytes": 150892
+      },
+      {
+        "format": "webp",
+        "width": 768,
+        "path": "/images/derived/portifolio_willian_casamento6-768.webp",
+        "bytes": 184398
+      },
+      {
+        "format": "avif",
+        "width": 1080,
+        "path": "/images/derived/portifolio_willian_casamento6-1080.avif",
+        "bytes": 248012
+      },
+      {
+        "format": "webp",
+        "width": 1080,
+        "path": "/images/derived/portifolio_willian_casamento6-1080.webp",
+        "bytes": 311028
+      },
+      {
+        "format": "avif",
+        "width": 1365,
+        "path": "/images/derived/portifolio_willian_casamento6-1365.avif",
+        "bytes": 302618
+      },
+      {
+        "format": "webp",
+        "width": 1365,
+        "path": "/images/derived/portifolio_willian_casamento6-1365.webp",
+        "bytes": 423480
+      }
+    ],
+    "hash": "56b28b5329ef11e3"
+  },
+  "portifolio_willian_casamento7": {
+    "slug": "portifolio_willian_casamento7",
+    "source": "/images/portifolio_willian_casamento7.jpg",
+    "sourceFormat": "jpeg",
+    "width": 1440,
+    "height": 1764,
+    "sourceBytes": 406719,
+    "lqip": "data:image/webp;base64,UklGRqgAAABXRUJQVlA4IJwAAADQBQCdASoYAB0APu1ep04ppKMiMBgMATAdiWYAuzMy8HAhKeXWAdM6kyGbVsPXs9OtCjFNspXAAP7x37WZTpG/f1ooo8NTdC0irIpcMzE7jp7WIT+OQCRij3pzRLWc7W1YSd4EozcTtzlfMz0o46ZCP4wVT9dz/WfDSulXKyIXNLRY0tiIg4Ue7d3bav/TavDK2zo7tGloV3FAAAA=",
+    "variants": [
+      {
+        "format": "avif",
+        "width": 480,
+        "path": "/images/derived/portifolio_willian_casamento7-480.avif",
+        "bytes": 32008
+      },
+      {
+        "format": "webp",
+        "width": 480,
+        "path": "/images/derived/portifolio_willian_casamento7-480.webp",
+        "bytes": 40944
+      },
+      {
+        "format": "avif",
+        "width": 768,
+        "path": "/images/derived/portifolio_willian_casamento7-768.avif",
+        "bytes": 65398
+      },
+      {
+        "format": "webp",
+        "width": 768,
+        "path": "/images/derived/portifolio_willian_casamento7-768.webp",
+        "bytes": 81674
+      },
+      {
+        "format": "avif",
+        "width": 1080,
+        "path": "/images/derived/portifolio_willian_casamento7-1080.avif",
+        "bytes": 114031
+      },
+      {
+        "format": "webp",
+        "width": 1080,
+        "path": "/images/derived/portifolio_willian_casamento7-1080.webp",
+        "bytes": 143224
+      },
+      {
+        "format": "avif",
+        "width": 1440,
+        "path": "/images/derived/portifolio_willian_casamento7-1440.avif",
+        "bytes": 218955
+      },
+      {
+        "format": "webp",
+        "width": 1440,
+        "path": "/images/derived/portifolio_willian_casamento7-1440.webp",
+        "bytes": 234662
+      }
+    ],
+    "hash": "e7ca2221b9595c95"
+  },
+  "portifolio_willian_casamento8": {
+    "slug": "portifolio_willian_casamento8",
+    "source": "/images/portifolio_willian_casamento8.jpg",
+    "sourceFormat": "jpeg",
+    "width": 2731,
+    "height": 1821,
+    "sourceBytes": 440956,
+    "lqip": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAAAQBACdASoYABAAPu1iqk2ppaQiMAgBMB2JYwC7ABarUaHkb+2Ta7+AAADiad+w4SojRoo+wO26KF8Hbka9PWbd04qwg/T0gbLCV4JmI6GsqmY3GKLnk7d9ZZaOB8tAAAA=",
+    "variants": [
+      {
+        "format": "avif",
+        "width": 480,
+        "path": "/images/derived/portifolio_willian_casamento8-480.avif",
+        "bytes": 23479
+      },
+      {
+        "format": "webp",
+        "width": 480,
+        "path": "/images/derived/portifolio_willian_casamento8-480.webp",
+        "bytes": 30236
+      },
+      {
+        "format": "avif",
+        "width": 768,
+        "path": "/images/derived/portifolio_willian_casamento8-768.avif",
+        "bytes": 48424
+      },
+      {
+        "format": "webp",
+        "width": 768,
+        "path": "/images/derived/portifolio_willian_casamento8-768.webp",
+        "bytes": 61928
+      },
+      {
+        "format": "avif",
+        "width": 1080,
+        "path": "/images/derived/portifolio_willian_casamento8-1080.avif",
+        "bytes": 80680
+      },
+      {
+        "format": "webp",
+        "width": 1080,
+        "path": "/images/derived/portifolio_willian_casamento8-1080.webp",
+        "bytes": 101684
+      },
+      {
+        "format": "avif",
+        "width": 1440,
+        "path": "/images/derived/portifolio_willian_casamento8-1440.avif",
+        "bytes": 122608
+      },
+      {
+        "format": "webp",
+        "width": 1440,
+        "path": "/images/derived/portifolio_willian_casamento8-1440.webp",
+        "bytes": 147150
+      },
+      {
+        "format": "avif",
+        "width": 1920,
+        "path": "/images/derived/portifolio_willian_casamento8-1920.avif",
+        "bytes": 183801
+      },
+      {
+        "format": "webp",
+        "width": 1920,
+        "path": "/images/derived/portifolio_willian_casamento8-1920.webp",
+        "bytes": 213576
+      },
+      {
+        "format": "avif",
+        "width": 2560,
+        "path": "/images/derived/portifolio_willian_casamento8-2560.avif",
+        "bytes": 271514
+      },
+      {
+        "format": "webp",
+        "width": 2560,
+        "path": "/images/derived/portifolio_willian_casamento8-2560.webp",
+        "bytes": 316844
+      },
+      {
+        "format": "avif",
+        "width": 2731,
+        "path": "/images/derived/portifolio_willian_casamento8-2731.avif",
+        "bytes": 306106
+      },
+      {
+        "format": "webp",
+        "width": 2731,
+        "path": "/images/derived/portifolio_willian_casamento8-2731.webp",
+        "bytes": 352830
+      }
+    ],
+    "hash": "5b165649dc726939"
+  },
+  "portifolio_willian_casamento9": {
+    "slug": "portifolio_willian_casamento9",
+    "source": "/images/portifolio_willian_casamento9.jpg",
+    "sourceFormat": "jpeg",
+    "width": 1440,
+    "height": 1764,
+    "sourceBytes": 826106,
+    "lqip": "data:image/webp;base64,UklGRqAAAABXRUJQVlA4IJQAAABwBQCdASoYAB0APu1kq04ppaQiMAgBMB2JZwDM0BK3tXj8c1oDUCdaLslJWQ/GKRUMD/QAAP7adW6HLkmAkhmP+lTdHkHIPHg021nCoUbN0bizbz1ZR/w4gEHhUSJZUgvrfrwKnhADzqWXJ81JhT/zlQOgr6IDKdKdpC/rV2Fd+Eh/2wlXRvok+9mhKmYu/mI/oAAA",
+    "variants": [
+      {
+        "format": "avif",
+        "width": 480,
+        "path": "/images/derived/portifolio_willian_casamento9-480.avif",
+        "bytes": 92331
+      },
+      {
+        "format": "webp",
+        "width": 480,
+        "path": "/images/derived/portifolio_willian_casamento9-480.webp",
+        "bytes": 116436
+      },
+      {
+        "format": "avif",
+        "width": 768,
+        "path": "/images/derived/portifolio_willian_casamento9-768.avif",
+        "bytes": 200776
+      },
+      {
+        "format": "webp",
+        "width": 768,
+        "path": "/images/derived/portifolio_willian_casamento9-768.webp",
+        "bytes": 262622
+      },
+      {
+        "format": "avif",
+        "width": 1080,
+        "path": "/images/derived/portifolio_willian_casamento9-1080.avif",
+        "bytes": 322813
+      },
+      {
+        "format": "webp",
+        "width": 1080,
+        "path": "/images/derived/portifolio_willian_casamento9-1080.webp",
+        "bytes": 436956
+      },
+      {
+        "format": "avif",
+        "width": 1440,
+        "path": "/images/derived/portifolio_willian_casamento9-1440.avif",
+        "bytes": 473446
+      },
+      {
+        "format": "webp",
+        "width": 1440,
+        "path": "/images/derived/portifolio_willian_casamento9-1440.webp",
+        "bytes": 609816
+      }
+    ],
+    "hash": "786854461fd899ec"
+  },
+  "portifolio_willian_ensaio": {
+    "slug": "portifolio_willian_ensaio",
+    "source": "/images/portifolio_willian_ensaio.jpg",
+    "sourceFormat": "jpeg",
+    "width": 1024,
+    "height": 1365,
+    "sourceBytes": 124269,
+    "lqip": "data:image/webp;base64,UklGRoAAAABXRUJQVlA4IHQAAABwBQCdASoYACAAPu1krE6ppaSiKA1RMB2JZwDLpEXhfAVRTllufIU7pfxQY58jWOWMwa+gAP70bMwzTcP9SraHwXJGE0EXE+DVTVMj+FZNaM7l38G1BQ/HMPsRWkAOGLPQqF3CdEhLb4lILWrLQp7IFQAAAA==",
+    "variants": [
+      {
+        "format": "avif",
+        "width": 480,
+        "path": "/images/derived/portifolio_willian_ensaio-480.avif",
+        "bytes": 14816
+      },
+      {
+        "format": "webp",
+        "width": 480,
+        "path": "/images/derived/portifolio_willian_ensaio-480.webp",
+        "bytes": 19566
+      },
+      {
+        "format": "avif",
+        "width": 768,
+        "path": "/images/derived/portifolio_willian_ensaio-768.avif",
+        "bytes": 24791
+      },
+      {
+        "format": "webp",
+        "width": 768,
+        "path": "/images/derived/portifolio_willian_ensaio-768.webp",
+        "bytes": 36838
+      },
+      {
+        "format": "avif",
+        "width": 1024,
+        "path": "/images/derived/portifolio_willian_ensaio-1024.avif",
+        "bytes": 36707
+      },
+      {
+        "format": "webp",
+        "width": 1024,
+        "path": "/images/derived/portifolio_willian_ensaio-1024.webp",
+        "bytes": 56820
+      }
+    ],
+    "hash": "83eac05e864d5ce9"
+  },
+  "portifolio_willian_ensaio10": {
+    "slug": "portifolio_willian_ensaio10",
+    "source": "/images/portifolio_willian_ensaio10.jpg",
+    "sourceFormat": "jpeg",
+    "width": 3072,
+    "height": 4096,
+    "sourceBytes": 385775,
+    "lqip": "data:image/webp;base64,UklGRpYAAABXRUJQVlA4IIoAAABQBQCdASoYACAAPtlapk2oJSOiN/qoAQAbCWMAtsgehWLrDEaix3WCxCKVUcXQ1jVR5AAA/tT5fTPMCOATh336dPHBROuXBslmFJ5SGNLwuIe/XOldDMDw0BY1cpK0TtWf/tpES3UfrC52SEPvZhG3Me4DtdX2demv2ELhdNpZP1kWzqq2M9AAAAA=",
+    "variants": [
+      {
+        "format": "avif",
+        "width": 480,
+        "path": "/images/derived/portifolio_willian_ensaio10-480.avif",
+        "bytes": 26704
+      },
+      {
+        "format": "webp",
+        "width": 480,
+        "path": "/images/derived/portifolio_willian_ensaio10-480.webp",
+        "bytes": 34274
+      },
+      {
+        "format": "avif",
+        "width": 768,
+        "path": "/images/derived/portifolio_willian_ensaio10-768.avif",
+        "bytes": 50571
+      },
+      {
+        "format": "webp",
+        "width": 768,
+        "path": "/images/derived/portifolio_willian_ensaio10-768.webp",
+        "bytes": 66350
+      },
+      {
+        "format": "avif",
+        "width": 1080,
+        "path": "/images/derived/portifolio_willian_ensaio10-1080.avif",
+        "bytes": 78897
+      },
+      {
+        "format": "webp",
+        "width": 1080,
+        "path": "/images/derived/portifolio_willian_ensaio10-1080.webp",
+        "bytes": 97404
+      },
+      {
+        "format": "avif",
+        "width": 1440,
+        "path": "/images/derived/portifolio_willian_ensaio10-1440.avif",
+        "bytes": 115442
+      },
+      {
+        "format": "webp",
+        "width": 1440,
+        "path": "/images/derived/portifolio_willian_ensaio10-1440.webp",
+        "bytes": 144800
+      },
+      {
+        "format": "avif",
+        "width": 1920,
+        "path": "/images/derived/portifolio_willian_ensaio10-1920.avif",
+        "bytes": 171174
+      },
+      {
+        "format": "webp",
+        "width": 1920,
+        "path": "/images/derived/portifolio_willian_ensaio10-1920.webp",
+        "bytes": 212068
+      },
+      {
+        "format": "avif",
+        "width": 2560,
+        "path": "/images/derived/portifolio_willian_ensaio10-2560.avif",
+        "bytes": 251057
+      },
+      {
+        "format": "webp",
+        "width": 2560,
+        "path": "/images/derived/portifolio_willian_ensaio10-2560.webp",
+        "bytes": 304168
+      },
+      {
+        "format": "avif",
+        "width": 3072,
+        "path": "/images/derived/portifolio_willian_ensaio10-3072.avif",
+        "bytes": 298889
+      },
+      {
+        "format": "webp",
+        "width": 3072,
+        "path": "/images/derived/portifolio_willian_ensaio10-3072.webp",
+        "bytes": 370756
+      }
+    ],
+    "hash": "84fbeed1f3b5d7fa"
+  },
+  "portifolio_willian_ensaio11": {
+    "slug": "portifolio_willian_ensaio11",
+    "source": "/images/portifolio_willian_ensaio11.jpg",
+    "sourceFormat": "jpeg",
+    "width": 3072,
+    "height": 4096,
+    "sourceBytes": 606967,
+    "lqip": "data:image/webp;base64,UklGRqoAAABXRUJQVlA4IJ4AAACQBQCdASoYACAAPu1uq1EppiOiqAqpMB2JYwCdM5HyTCRlcnPki8qndARFtNHGiUShVQRKAAD+4D3mXpwRljhUHiWSMU5P0dDtqHkhtPK1WaDPZlUKwZyoWnMk8pS9TOU3vdYiiVITx6yEPngxhHek8LuQ373NcrpkcJNfRCTc31jnSk5QxBYNGT24W+Tmx9hLZPSaxnQsHoWCpAAAAA==",
+    "variants": [
+      {
+        "format": "avif",
+        "width": 480,
+        "path": "/images/derived/portifolio_willian_ensaio11-480.avif",
+        "bytes": 49274
+      },
+      {
+        "format": "webp",
+        "width": 480,
+        "path": "/images/derived/portifolio_willian_ensaio11-480.webp",
+        "bytes": 61158
+      },
+      {
+        "format": "avif",
+        "width": 768,
+        "path": "/images/derived/portifolio_willian_ensaio11-768.avif",
+        "bytes": 91451
+      },
+      {
+        "format": "webp",
+        "width": 768,
+        "path": "/images/derived/portifolio_willian_ensaio11-768.webp",
+        "bytes": 116556
+      },
+      {
+        "format": "avif",
+        "width": 1080,
+        "path": "/images/derived/portifolio_willian_ensaio11-1080.avif",
+        "bytes": 139731
+      },
+      {
+        "format": "webp",
+        "width": 1080,
+        "path": "/images/derived/portifolio_willian_ensaio11-1080.webp",
+        "bytes": 181012
+      },
+      {
+        "format": "avif",
+        "width": 1440,
+        "path": "/images/derived/portifolio_willian_ensaio11-1440.avif",
+        "bytes": 203601
+      },
+      {
+        "format": "webp",
+        "width": 1440,
+        "path": "/images/derived/portifolio_willian_ensaio11-1440.webp",
+        "bytes": 255194
+      },
+      {
+        "format": "avif",
+        "width": 1920,
+        "path": "/images/derived/portifolio_willian_ensaio11-1920.avif",
+        "bytes": 306950
+      },
+      {
+        "format": "webp",
+        "width": 1920,
+        "path": "/images/derived/portifolio_willian_ensaio11-1920.webp",
+        "bytes": 384732
+      },
+      {
+        "format": "avif",
+        "width": 2560,
+        "path": "/images/derived/portifolio_willian_ensaio11-2560.avif",
+        "bytes": 443467
+      },
+      {
+        "format": "webp",
+        "width": 2560,
+        "path": "/images/derived/portifolio_willian_ensaio11-2560.webp",
+        "bytes": 550346
+      },
+      {
+        "format": "avif",
+        "width": 3072,
+        "path": "/images/derived/portifolio_willian_ensaio11-3072.avif",
+        "bytes": 512922
+      },
+      {
+        "format": "webp",
+        "width": 3072,
+        "path": "/images/derived/portifolio_willian_ensaio11-3072.webp",
+        "bytes": 665454
+      }
+    ],
+    "hash": "4460fb48bf6c5579"
+  },
+  "portifolio_willian_ensaio12": {
+    "slug": "portifolio_willian_ensaio12",
+    "source": "/images/portifolio_willian_ensaio12.jpg",
+    "sourceFormat": "jpeg",
+    "width": 3072,
+    "height": 4096,
+    "sourceBytes": 2003488,
+    "lqip": "data:image/webp;base64,UklGRogAAABXRUJQVlA4IHwAAADwBACdASoYACAAPuFipU2opiOiN/VYARAcCUATpmX4NOrHE9hVaAbXjcxp+bDjKgAA/uLYySUIQ20jU5XpMTqtD0SK3XjMcHWtqPwf+PGuOJOgV6EtmbRzXEU+pyPOff/UUu306OG91xyXz2NFeJJ5gXdMD4NK5v51AAAA",
+    "variants": [
+      {
+        "format": "avif",
+        "width": 480,
+        "path": "/images/derived/portifolio_willian_ensaio12-480.avif",
+        "bytes": 130159
+      },
+      {
+        "format": "webp",
+        "width": 480,
+        "path": "/images/derived/portifolio_willian_ensaio12-480.webp",
+        "bytes": 157724
+      },
+      {
+        "format": "avif",
+        "width": 768,
+        "path": "/images/derived/portifolio_willian_ensaio12-768.avif",
+        "bytes": 291223
+      },
+      {
+        "format": "webp",
+        "width": 768,
+        "path": "/images/derived/portifolio_willian_ensaio12-768.webp",
+        "bytes": 369558
+      },
+      {
+        "format": "avif",
+        "width": 1080,
+        "path": "/images/derived/portifolio_willian_ensaio12-1080.avif",
+        "bytes": 506452
+      },
+      {
+        "format": "webp",
+        "width": 1080,
+        "path": "/images/derived/portifolio_willian_ensaio12-1080.webp",
+        "bytes": 670570
+      },
+      {
+        "format": "avif",
+        "width": 1440,
+        "path": "/images/derived/portifolio_willian_ensaio12-1440.avif",
+        "bytes": 819596
+      },
+      {
+        "format": "webp",
+        "width": 1440,
+        "path": "/images/derived/portifolio_willian_ensaio12-1440.webp",
+        "bytes": 1102754
+      },
+      {
+        "format": "avif",
+        "width": 1920,
+        "path": "/images/derived/portifolio_willian_ensaio12-1920.avif",
+        "bytes": 1325580
+      },
+      {
+        "format": "webp",
+        "width": 1920,
+        "path": "/images/derived/portifolio_willian_ensaio12-1920.webp",
+        "bytes": 1770438
+      },
+      {
+        "format": "avif",
+        "width": 2560,
+        "path": "/images/derived/portifolio_willian_ensaio12-2560.avif",
+        "bytes": 1951033
+      },
+      {
+        "format": "webp",
+        "width": 2560,
+        "path": "/images/derived/portifolio_willian_ensaio12-2560.webp",
+        "bytes": 2535050
+      },
+      {
+        "format": "avif",
+        "width": 3072,
+        "path": "/images/derived/portifolio_willian_ensaio12-3072.avif",
+        "bytes": 1941592
+      },
+      {
+        "format": "webp",
+        "width": 3072,
+        "path": "/images/derived/portifolio_willian_ensaio12-3072.webp",
+        "bytes": 2991964
+      }
+    ],
+    "hash": "ed356626146d5ad4"
+  },
+  "portifolio_willian_ensaio13": {
+    "slug": "portifolio_willian_ensaio13",
+    "source": "/images/portifolio_willian_ensaio13.jpg",
+    "sourceFormat": "jpeg",
+    "width": 1024,
+    "height": 1365,
+    "sourceBytes": 155569,
+    "lqip": "data:image/webp;base64,UklGRpQAAABXRUJQVlA4IIgAAADwBACdASoYACAAPu1qsFAppiUiqAqpMB2JQBOmZDAmyP6uomtlvk5tvB3T76/LpnAA4RdLceNjuABbTMYaI6lwfou1E36hLs2ciY/dhqv5JW7cbjT/GzoiDQ2wwvLpbIN0n6RVcVD7f+81gIfeilaewq4q9uSIzMEu82ZkTynMOP8gR/swTEQA",
+    "variants": [
+      {
+        "format": "avif",
+        "width": 480,
+        "path": "/images/derived/portifolio_willian_ensaio13-480.avif",
+        "bytes": 35999
+      },
+      {
+        "format": "webp",
+        "width": 480,
+        "path": "/images/derived/portifolio_willian_ensaio13-480.webp",
+        "bytes": 43652
+      },
+      {
+        "format": "avif",
+        "width": 768,
+        "path": "/images/derived/portifolio_willian_ensaio13-768.avif",
+        "bytes": 77851
+      },
+      {
+        "format": "webp",
+        "width": 768,
+        "path": "/images/derived/portifolio_willian_ensaio13-768.webp",
+        "bytes": 90030
+      },
+      {
+        "format": "avif",
+        "width": 1024,
+        "path": "/images/derived/portifolio_willian_ensaio13-1024.avif",
+        "bytes": 120227
+      },
+      {
+        "format": "webp",
+        "width": 1024,
+        "path": "/images/derived/portifolio_willian_ensaio13-1024.webp",
+        "bytes": 140040
+      }
+    ],
+    "hash": "71743aef54525d14"
+  },
+  "portifolio_willian_ensaio14": {
+    "slug": "portifolio_willian_ensaio14",
+    "source": "/images/portifolio_willian_ensaio14.jpg",
+    "sourceFormat": "jpeg",
+    "width": 1440,
+    "height": 1799,
+    "sourceBytes": 399705,
+    "lqip": "data:image/webp;base64,UklGRo4AAABXRUJQVlA4IIIAAADwBACdASoYAB4APu1uq1CppqOiqAqpMB2JZwDDNBEX6CjDWiFsai5l5VTZndXFtQAA/vHMNYCGbo+3wyKmdc9wQNJydt7MM8kZtTcwGc2e0I8l0IqaBui757MYuDen0/EFS+Xl/cB7App57GhVh6gD3+8jq+JD6lsoyHI0/pYKKAAA",
+    "variants": [
+      {
+        "format": "avif",
+        "width": 480,
+        "path": "/images/derived/portifolio_willian_ensaio14-480.avif",
+        "bytes": 32119
+      },
+      {
+        "format": "webp",
+        "width": 480,
+        "path": "/images/derived/portifolio_willian_ensaio14-480.webp",
+        "bytes": 39084
+      },
+      {
+        "format": "avif",
+        "width": 768,
+        "path": "/images/derived/portifolio_willian_ensaio14-768.avif",
+        "bytes": 64433
+      },
+      {
+        "format": "webp",
+        "width": 768,
+        "path": "/images/derived/portifolio_willian_ensaio14-768.webp",
+        "bytes": 74456
+      },
+      {
+        "format": "avif",
+        "width": 1080,
+        "path": "/images/derived/portifolio_willian_ensaio14-1080.avif",
+        "bytes": 107924
+      },
+      {
+        "format": "webp",
+        "width": 1080,
+        "path": "/images/derived/portifolio_willian_ensaio14-1080.webp",
+        "bytes": 128496
+      },
+      {
+        "format": "avif",
+        "width": 1440,
+        "path": "/images/derived/portifolio_willian_ensaio14-1440.avif",
+        "bytes": 196534
+      },
+      {
+        "format": "webp",
+        "width": 1440,
+        "path": "/images/derived/portifolio_willian_ensaio14-1440.webp",
+        "bytes": 210262
+      }
+    ],
+    "hash": "1244f8893452a4d5"
+  },
+  "portifolio_willian_ensaio15": {
+    "slug": "portifolio_willian_ensaio15",
+    "source": "/images/portifolio_willian_ensaio15.jpg",
+    "sourceFormat": "jpeg",
+    "width": 3072,
+    "height": 4096,
+    "sourceBytes": 1021885,
+    "lqip": "data:image/webp;base64,UklGRn4AAABXRUJQVlA4IHIAAACQBQCdASoYACAAPulkqU2pJaQiMBgMASAdCWkAAC3H2vAdWRlyIDyjO61V3gsE9xIB7ztpQAD+6/XdRR1HVr1I8m6nlmB7DMEHwAv6i2aAFH0/nskahsZm7Hjo0x3DfKHz9LKo5nuhs0rg5uHG/D/6MAA=",
+    "variants": [
+      {
+        "format": "avif",
+        "width": 480,
+        "path": "/images/derived/portifolio_willian_ensaio15-480.avif",
+        "bytes": 23468
+      },
+      {
+        "format": "webp",
+        "width": 480,
+        "path": "/images/derived/portifolio_willian_ensaio15-480.webp",
+        "bytes": 26888
+      },
+      {
+        "format": "avif",
+        "width": 768,
+        "path": "/images/derived/portifolio_willian_ensaio15-768.avif",
+        "bytes": 64321
+      },
+      {
+        "format": "webp",
+        "width": 768,
+        "path": "/images/derived/portifolio_willian_ensaio15-768.webp",
+        "bytes": 68014
+      },
+      {
+        "format": "avif",
+        "width": 1080,
+        "path": "/images/derived/portifolio_willian_ensaio15-1080.avif",
+        "bytes": 169996
+      },
+      {
+        "format": "webp",
+        "width": 1080,
+        "path": "/images/derived/portifolio_willian_ensaio15-1080.webp",
+        "bytes": 179660
+      },
+      {
+        "format": "avif",
+        "width": 1440,
+        "path": "/images/derived/portifolio_willian_ensaio15-1440.avif",
+        "bytes": 356216
+      },
+      {
+        "format": "webp",
+        "width": 1440,
+        "path": "/images/derived/portifolio_willian_ensaio15-1440.webp",
+        "bytes": 382424
+      },
+      {
+        "format": "avif",
+        "width": 1920,
+        "path": "/images/derived/portifolio_willian_ensaio15-1920.avif",
+        "bytes": 701003
+      },
+      {
+        "format": "webp",
+        "width": 1920,
+        "path": "/images/derived/portifolio_willian_ensaio15-1920.webp",
+        "bytes": 751728
+      },
+      {
+        "format": "avif",
+        "width": 2560,
+        "path": "/images/derived/portifolio_willian_ensaio15-2560.avif",
+        "bytes": 1107086
+      },
+      {
+        "format": "webp",
+        "width": 2560,
+        "path": "/images/derived/portifolio_willian_ensaio15-2560.webp",
+        "bytes": 1204846
+      },
+      {
+        "format": "avif",
+        "width": 3072,
+        "path": "/images/derived/portifolio_willian_ensaio15-3072.avif",
+        "bytes": 961545
+      },
+      {
+        "format": "webp",
+        "width": 3072,
+        "path": "/images/derived/portifolio_willian_ensaio15-3072.webp",
+        "bytes": 1477114
+      }
+    ],
+    "hash": "985dcc303a24b7e7"
+  },
+  "portifolio_willian_ensaio2": {
+    "slug": "portifolio_willian_ensaio2",
+    "source": "/images/portifolio_willian_ensaio2.jpg",
+    "sourceFormat": "jpeg",
+    "width": 1440,
+    "height": 1799,
+    "sourceBytes": 492718,
+    "lqip": "data:image/webp;base64,UklGRpoAAABXRUJQVlA4II4AAACwBQCdASoYAB4APu1gp04ppSMiMBgMATAdiUAQPaikB1VsTeFyImKyduaAzBCfwIa6YU3j3IAA/rdjDwWOcTS5W4tVJOFw5+ehMAf6ZmtvX6I+X+P/XPTMckLFTBvYqtifXj4/2+YmWAj7vPxBfB9RAZZoIybOcMR5pikzha258dUpf2jOkLRGW9WhAAAA",
+    "variants": [
+      {
+        "format": "avif",
+        "width": 480,
+        "path": "/images/derived/portifolio_willian_ensaio2-480.avif",
+        "bytes": 37331
+      },
+      {
+        "format": "webp",
+        "width": 480,
+        "path": "/images/derived/portifolio_willian_ensaio2-480.webp",
+        "bytes": 49272
+      },
+      {
+        "format": "avif",
+        "width": 768,
+        "path": "/images/derived/portifolio_willian_ensaio2-768.avif",
+        "bytes": 82932
+      },
+      {
+        "format": "webp",
+        "width": 768,
+        "path": "/images/derived/portifolio_willian_ensaio2-768.webp",
+        "bytes": 117746
+      },
+      {
+        "format": "avif",
+        "width": 1080,
+        "path": "/images/derived/portifolio_willian_ensaio2-1080.avif",
+        "bytes": 141739
+      },
+      {
+        "format": "webp",
+        "width": 1080,
+        "path": "/images/derived/portifolio_willian_ensaio2-1080.webp",
+        "bytes": 199242
+      },
+      {
+        "format": "avif",
+        "width": 1440,
+        "path": "/images/derived/portifolio_willian_ensaio2-1440.avif",
+        "bytes": 233831
+      },
+      {
+        "format": "webp",
+        "width": 1440,
+        "path": "/images/derived/portifolio_willian_ensaio2-1440.webp",
+        "bytes": 298404
+      }
+    ],
+    "hash": "00229582eb0595fa"
+  },
+  "portifolio_willian_ensaio3": {
+    "slug": "portifolio_willian_ensaio3",
+    "source": "/images/portifolio_willian_ensaio3.jpg",
+    "sourceFormat": "jpeg",
+    "width": 3072,
+    "height": 4096,
+    "sourceBytes": 566322,
+    "lqip": "data:image/webp;base64,UklGRooAAABXRUJQVlA4IH4AAABwBQCdASoYACAAPu1qpk4ppiMiMBgMATAdiWMAwNwQ8AFyO6xgiVCqJV+dsdrp7ILwiATwAP5S/HZRutvf+tvOEI3yN0cTVjp8rgpLTCTZY3aGEAosiT1QQE0NXdAPdwNxoizSSTKxLtE6Tksc8wjbXUAwdjd+R12efnTofAA=",
+    "variants": [
+      {
+        "format": "avif",
+        "width": 480,
+        "path": "/images/derived/portifolio_willian_ensaio3-480.avif",
+        "bytes": 45253
+      },
+      {
+        "format": "webp",
+        "width": 480,
+        "path": "/images/derived/portifolio_willian_ensaio3-480.webp",
+        "bytes": 60296
+      },
+      {
+        "format": "avif",
+        "width": 768,
+        "path": "/images/derived/portifolio_willian_ensaio3-768.avif",
+        "bytes": 84219
+      },
+      {
+        "format": "webp",
+        "width": 768,
+        "path": "/images/derived/portifolio_willian_ensaio3-768.webp",
+        "bytes": 114188
+      },
+      {
+        "format": "avif",
+        "width": 1080,
+        "path": "/images/derived/portifolio_willian_ensaio3-1080.avif",
+        "bytes": 127423
+      },
+      {
+        "format": "webp",
+        "width": 1080,
+        "path": "/images/derived/portifolio_willian_ensaio3-1080.webp",
+        "bytes": 165402
+      },
+      {
+        "format": "avif",
+        "width": 1440,
+        "path": "/images/derived/portifolio_willian_ensaio3-1440.avif",
+        "bytes": 182865
+      },
+      {
+        "format": "webp",
+        "width": 1440,
+        "path": "/images/derived/portifolio_willian_ensaio3-1440.webp",
+        "bytes": 236954
+      },
+      {
+        "format": "avif",
+        "width": 1920,
+        "path": "/images/derived/portifolio_willian_ensaio3-1920.avif",
+        "bytes": 256721
+      },
+      {
+        "format": "webp",
+        "width": 1920,
+        "path": "/images/derived/portifolio_willian_ensaio3-1920.webp",
+        "bytes": 341220
+      },
+      {
+        "format": "avif",
+        "width": 2560,
+        "path": "/images/derived/portifolio_willian_ensaio3-2560.avif",
+        "bytes": 374652
+      },
+      {
+        "format": "webp",
+        "width": 2560,
+        "path": "/images/derived/portifolio_willian_ensaio3-2560.webp",
+        "bytes": 471566
+      },
+      {
+        "format": "avif",
+        "width": 3072,
+        "path": "/images/derived/portifolio_willian_ensaio3-3072.avif",
+        "bytes": 466933
+      },
+      {
+        "format": "webp",
+        "width": 3072,
+        "path": "/images/derived/portifolio_willian_ensaio3-3072.webp",
+        "bytes": 576626
+      }
+    ],
+    "hash": "d5b62787f26025d4"
+  },
+  "portifolio_willian_ensaio4": {
+    "slug": "portifolio_willian_ensaio4",
+    "source": "/images/portifolio_willian_ensaio4.jpg",
+    "sourceFormat": "jpeg",
+    "width": 1024,
+    "height": 1365,
+    "sourceBytes": 151495,
+    "lqip": "data:image/webp;base64,UklGRqYAAABXRUJQVlA4IJoAAAAQBgCdASoYACAAPu1qq08ppiOiMBgIATAdiWMAnTLHRR/m1p/+Cw1ndRm0qcs/l0lVsWi6vJ5g3/AA+4ynbh7+T4m99RyCzEPovNZIN7PR0S1158XaIM7gXtgyCcKv9RaCGm2nx/ZX4DHjf0YLEFZq/eqJ/fA6OpXTVuiREEPLifz35PGeVXwy9/hbEvnOj7mabIOx8D7qcAAA",
+    "variants": [
+      {
+        "format": "avif",
+        "width": 480,
+        "path": "/images/derived/portifolio_willian_ensaio4-480.avif",
+        "bytes": 37961
+      },
+      {
+        "format": "webp",
+        "width": 480,
+        "path": "/images/derived/portifolio_willian_ensaio4-480.webp",
+        "bytes": 46124
+      },
+      {
+        "format": "avif",
+        "width": 768,
+        "path": "/images/derived/portifolio_willian_ensaio4-768.avif",
+        "bytes": 76879
+      },
+      {
+        "format": "webp",
+        "width": 768,
+        "path": "/images/derived/portifolio_willian_ensaio4-768.webp",
+        "bytes": 88050
+      },
+      {
+        "format": "avif",
+        "width": 1024,
+        "path": "/images/derived/portifolio_willian_ensaio4-1024.avif",
+        "bytes": 115342
+      },
+      {
+        "format": "webp",
+        "width": 1024,
+        "path": "/images/derived/portifolio_willian_ensaio4-1024.webp",
+        "bytes": 133016
+      }
+    ],
+    "hash": "4ed53dc74484d8a5"
+  },
+  "portifolio_willian_ensaio6": {
+    "slug": "portifolio_willian_ensaio6",
+    "source": "/images/portifolio_willian_ensaio6.jpg",
+    "sourceFormat": "jpeg",
+    "width": 1440,
+    "height": 1920,
+    "sourceBytes": 322507,
+    "lqip": "data:image/webp;base64,UklGRogAAABXRUJQVlA4IHwAAABQBQCdASoYACAAPu1srU+ppiQiMBgIATAdiWkAAIpi9pmT3HaqyyFp6ZrqZ046OK/15sAA2sB9htGfNoDqYPCtisNI0+tNqJc118EwRsl/xA9xKQqdQpwDi1XcSxGNaR9Mpc80nZnmGpdDjDfkm9+TZVwbUY4aGkpaHAAA",
+    "variants": [
+      {
+        "format": "avif",
+        "width": 480,
+        "path": "/images/derived/portifolio_willian_ensaio6-480.avif",
+        "bytes": 22932
+      },
+      {
+        "format": "webp",
+        "width": 480,
+        "path": "/images/derived/portifolio_willian_ensaio6-480.webp",
+        "bytes": 26610
+      },
+      {
+        "format": "avif",
+        "width": 768,
+        "path": "/images/derived/portifolio_willian_ensaio6-768.avif",
+        "bytes": 44452
+      },
+      {
+        "format": "webp",
+        "width": 768,
+        "path": "/images/derived/portifolio_willian_ensaio6-768.webp",
+        "bytes": 53426
+      },
+      {
+        "format": "avif",
+        "width": 1080,
+        "path": "/images/derived/portifolio_willian_ensaio6-1080.avif",
+        "bytes": 74411
+      },
+      {
+        "format": "webp",
+        "width": 1080,
+        "path": "/images/derived/portifolio_willian_ensaio6-1080.webp",
+        "bytes": 88198
+      },
+      {
+        "format": "avif",
+        "width": 1440,
+        "path": "/images/derived/portifolio_willian_ensaio6-1440.avif",
+        "bytes": 128788
+      },
+      {
+        "format": "webp",
+        "width": 1440,
+        "path": "/images/derived/portifolio_willian_ensaio6-1440.webp",
+        "bytes": 141440
+      }
+    ],
+    "hash": "7f5bafaf7b8e5e0a"
+  },
+  "portifolio_willian_ensaio7": {
+    "slug": "portifolio_willian_ensaio7",
+    "source": "/images/portifolio_willian_ensaio7.jpg",
+    "sourceFormat": "jpeg",
+    "width": 1440,
+    "height": 1799,
+    "sourceBytes": 585375,
+    "lqip": "data:image/webp;base64,UklGRqQAAABXRUJQVlA4IJgAAACQBQCdASoYAB4APu1qr1AppiQiqAqpMB2JYwCdM47BXOQ/0zfsXe2sCS0lvclq93hMhxAlAAD+8d2bpeGSAM/UT+/N+qsgMI5OB8ubfZJ0Cz/s26sGyKMxeK81yPr+ptD/kJWkdnWwtehhlSNcqVUOpSPmdZ/hqSPPcdtb8H/Osp8W/I5EKSC3Nh5rGxn1/pxJDLOt+AAAAA==",
+    "variants": [
+      {
+        "format": "avif",
+        "width": 480,
+        "path": "/images/derived/portifolio_willian_ensaio7-480.avif",
+        "bytes": 32597
+      },
+      {
+        "format": "webp",
+        "width": 480,
+        "path": "/images/derived/portifolio_willian_ensaio7-480.webp",
+        "bytes": 40274
+      },
+      {
+        "format": "avif",
+        "width": 768,
+        "path": "/images/derived/portifolio_willian_ensaio7-768.avif",
+        "bytes": 91124
+      },
+      {
+        "format": "webp",
+        "width": 768,
+        "path": "/images/derived/portifolio_willian_ensaio7-768.webp",
+        "bytes": 106908
+      },
+      {
+        "format": "avif",
+        "width": 1080,
+        "path": "/images/derived/portifolio_willian_ensaio7-1080.avif",
+        "bytes": 190107
+      },
+      {
+        "format": "webp",
+        "width": 1080,
+        "path": "/images/derived/portifolio_willian_ensaio7-1080.webp",
+        "bytes": 224136
+      },
+      {
+        "format": "avif",
+        "width": 1440,
+        "path": "/images/derived/portifolio_willian_ensaio7-1440.avif",
+        "bytes": 375429
+      },
+      {
+        "format": "webp",
+        "width": 1440,
+        "path": "/images/derived/portifolio_willian_ensaio7-1440.webp",
+        "bytes": 398518
+      }
+    ],
+    "hash": "38eb08af0f3483ee"
+  },
+  "portifolio_willian_ensaio8": {
+    "slug": "portifolio_willian_ensaio8",
+    "source": "/images/portifolio_willian_ensaio8.jpg",
+    "sourceFormat": "jpeg",
+    "width": 3072,
+    "height": 4096,
+    "sourceBytes": 1013439,
+    "lqip": "data:image/webp;base64,UklGRp4AAABXRUJQVlA4IJIAAADQBACdASoYACAAPu1ysVMppqSiqAgBMB2JZwDI1FbOv6YTUDy6bQviibiZMxJmnAD++hN6D76h9FtaPw9HXZ4DOniVpP/jnlGbgEWvClG0RC/MsXWyBFQRgqBS8KxfuC2oOKmXd+vfygoP/hSeteoBxvr1LfFUAiwAPuhfEdrMQevhUAKPulloRghLE1MgcAAAAA==",
+    "variants": [
+      {
+        "format": "avif",
+        "width": 480,
+        "path": "/images/derived/portifolio_willian_ensaio8-480.avif",
+        "bytes": 53065
+      },
+      {
+        "format": "webp",
+        "width": 480,
+        "path": "/images/derived/portifolio_willian_ensaio8-480.webp",
+        "bytes": 68850
+      },
+      {
+        "format": "avif",
+        "width": 768,
+        "path": "/images/derived/portifolio_willian_ensaio8-768.avif",
+        "bytes": 127098
+      },
+      {
+        "format": "webp",
+        "width": 768,
+        "path": "/images/derived/portifolio_willian_ensaio8-768.webp",
+        "bytes": 161436
+      },
+      {
+        "format": "avif",
+        "width": 1080,
+        "path": "/images/derived/portifolio_willian_ensaio8-1080.avif",
+        "bytes": 245863
+      },
+      {
+        "format": "webp",
+        "width": 1080,
+        "path": "/images/derived/portifolio_willian_ensaio8-1080.webp",
+        "bytes": 295660
+      },
+      {
+        "format": "avif",
+        "width": 1440,
+        "path": "/images/derived/portifolio_willian_ensaio8-1440.avif",
+        "bytes": 403913
+      },
+      {
+        "format": "webp",
+        "width": 1440,
+        "path": "/images/derived/portifolio_willian_ensaio8-1440.webp",
+        "bytes": 484346
+      },
+      {
+        "format": "avif",
+        "width": 1920,
+        "path": "/images/derived/portifolio_willian_ensaio8-1920.avif",
+        "bytes": 627084
+      },
+      {
+        "format": "webp",
+        "width": 1920,
+        "path": "/images/derived/portifolio_willian_ensaio8-1920.webp",
+        "bytes": 741780
+      },
+      {
+        "format": "avif",
+        "width": 2560,
+        "path": "/images/derived/portifolio_willian_ensaio8-2560.avif",
+        "bytes": 897523
+      },
+      {
+        "format": "webp",
+        "width": 2560,
+        "path": "/images/derived/portifolio_willian_ensaio8-2560.webp",
+        "bytes": 1087508
+      },
+      {
+        "format": "avif",
+        "width": 3072,
+        "path": "/images/derived/portifolio_willian_ensaio8-3072.avif",
+        "bytes": 905800
+      },
+      {
+        "format": "webp",
+        "width": 3072,
+        "path": "/images/derived/portifolio_willian_ensaio8-3072.webp",
+        "bytes": 1269882
+      }
+    ],
+    "hash": "ed98dc3b1973b9d4"
+  },
+  "portifolio_willian_ensaio9": {
+    "slug": "portifolio_willian_ensaio9",
+    "source": "/images/portifolio_willian_ensaio9.jpg",
+    "sourceFormat": "jpeg",
+    "width": 1365,
+    "height": 1706,
+    "sourceBytes": 250388,
+    "lqip": "data:image/webp;base64,UklGRqIAAABXRUJQVlA4IJYAAADQBQCdASoYAB4APt1ap02opSOiN/qoARAbiUAVIqQAPwysW1ydqO9/45qYcG+NO6N6/Q90BWsAAP0hiGckziPrsBv9uCqynsMDFe4fFKQVkLWvT8PXDxHxoigzsl98t9tyvSuchypRE4mdOP7jt3NTQ55UI4YwhO57dbKGw2FY7NInuY/W/et/geT+XguStdoW2hUdngA=",
+    "variants": [
+      {
+        "format": "avif",
+        "width": 480,
+        "path": "/images/derived/portifolio_willian_ensaio9-480.avif",
+        "bytes": 21223
+      },
+      {
+        "format": "webp",
+        "width": 480,
+        "path": "/images/derived/portifolio_willian_ensaio9-480.webp",
+        "bytes": 27778
+      },
+      {
+        "format": "avif",
+        "width": 768,
+        "path": "/images/derived/portifolio_willian_ensaio9-768.avif",
+        "bytes": 37169
+      },
+      {
+        "format": "webp",
+        "width": 768,
+        "path": "/images/derived/portifolio_willian_ensaio9-768.webp",
+        "bytes": 48000
+      },
+      {
+        "format": "avif",
+        "width": 1080,
+        "path": "/images/derived/portifolio_willian_ensaio9-1080.avif",
+        "bytes": 58487
+      },
+      {
+        "format": "webp",
+        "width": 1080,
+        "path": "/images/derived/portifolio_willian_ensaio9-1080.webp",
+        "bytes": 74292
+      },
+      {
+        "format": "avif",
+        "width": 1365,
+        "path": "/images/derived/portifolio_willian_ensaio9-1365.avif",
+        "bytes": 85523
+      },
+      {
+        "format": "webp",
+        "width": 1365,
+        "path": "/images/derived/portifolio_willian_ensaio9-1365.webp",
+        "bytes": 110044
+      }
+    ],
+    "hash": "acc6bac0818a3a75"
+  }
+}

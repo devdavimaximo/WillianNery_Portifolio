@@ -1,0 +1,50 @@
+/**
+ * Inline link. The underline is the affordance — colour is not, because the
+ * system's only colour belongs to the contact action.
+ */
+.link {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.22em;
+  text-decoration-color: var(--color-rule);
+  transition:
+    color var(--duration-1) var(--ease-quiet),
+    text-decoration-color var(--duration-1) var(--ease-quiet);
+}
+
+.link:hover {
+  color: var(--color-accent);
+  text-decoration-color: var(--color-accent);
+}
+
+/* Navigation item: no underline until hover or current page. */
+.nav {
+  display: inline-flex;
+  align-items: center;
+  min-height: var(--target-min);
+  font-family: var(--font-sans);
+  font-size: var(--text-label);
+  font-weight: 600;
+  letter-spacing: var(--tracking-label);
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--color-text-muted);
+  transition: color var(--duration-1) var(--ease-quiet);
+}
+
+.nav:hover {
+  color: var(--color-text);
+}
+
+/**
+ * Current page. Marked with weight and a rule as well as colour, so the state
+ * does not depend on colour alone.
+ */
+.current {
+  color: var(--color-text);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.4em;
+  text-decoration-color: var(--color-accent);
+}

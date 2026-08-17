@@ -1,0 +1,33 @@
+/**
+ * Museum wall label. Carries the technical line of a photograph
+ * (category · place · year) and doubles as a section eyebrow.
+ *
+ * Uppercase with generous tracking is the whole point here — it is the one place
+ * the system allows letter-spacing that wide, and it never wraps mid-term.
+ */
+.label {
+  margin: 0;
+  font-family: var(--font-sans);
+  font-size: var(--text-label);
+  font-weight: 600;
+  line-height: var(--leading-tight);
+  letter-spacing: var(--tracking-label);
+  text-transform: uppercase;
+  font-variation-settings: 'wdth' var(--width-base);
+  color: var(--color-text-muted);
+}
+
+.strong {
+  color: var(--color-text);
+}
+
+.parts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-1) var(--space-3);
+  align-items: baseline;
+}
+
+.separator {
+  color: var(--color-rule);
+}

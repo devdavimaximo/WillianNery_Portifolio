@@ -1,0 +1,63 @@
+/**
+ * The type scale, as components. Nothing outside this file sets a font-size —
+ * that is what keeps the scale a scale.
+ *
+ * Archivo carries structure (display, title, subtitle, caption); Newsreader is
+ * reserved for real prose. The `wdth` axis is expanded only at display sizes:
+ * the widening is a cover gesture, not a tic.
+ */
+
+.display {
+  font-family: var(--font-sans);
+  font-size: var(--text-display);
+  font-weight: 500;
+  line-height: var(--leading-display);
+  letter-spacing: var(--tracking-display);
+  font-variation-settings: 'wdth' var(--width-display);
+  text-wrap: balance;
+  color: var(--color-text);
+}
+
+.title {
+  font-family: var(--font-sans);
+  font-size: var(--text-title);
+  font-weight: 500;
+  line-height: var(--leading-title);
+  letter-spacing: var(--tracking-title);
+  font-variation-settings: 'wdth' var(--width-title);
+  text-wrap: balance;
+  color: var(--color-text);
+}
+
+.subtitle {
+  font-family: var(--font-sans);
+  font-size: var(--text-subtitle);
+  font-weight: 600;
+  line-height: var(--leading-tight);
+  font-variation-settings: 'wdth' var(--width-subtitle);
+  text-wrap: balance;
+  color: var(--color-text);
+}
+
+.essay {
+  font-family: var(--font-serif);
+  font-size: var(--text-essay);
+  font-weight: 380;
+  line-height: var(--leading-essay);
+  font-variation-settings: 'opsz' 20;
+  max-width: var(--measure-essay);
+  color: var(--color-text);
+}
+
+.essay em {
+  font-style: italic;
+}
+
+.caption {
+  font-family: var(--font-sans);
+  font-size: var(--text-caption);
+  font-weight: 400;
+  line-height: var(--leading-body);
+  color: var(--color-text-muted);
+  max-width: var(--measure-body);
+}

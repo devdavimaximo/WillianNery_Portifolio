@@ -1,25 +1,157 @@
 /**
- * Tokens provisórios (F0 — setup técnico).
- * Paleta, tipografia e motion definitivos vêm da F1 (Design System &
- * Identidade), a partir da direção de arte fechada com o William.
- * Não tratar estes valores como identidade visual final.
+ * Design tokens — F1.
+ *
+ * Art direction "Passe-Partout" (approved 2026-08-17): the site is the mat of a
+ * framed print. Warm low-chroma grey ground, near-black warm ink, and NO saturated
+ * colour in the interface — every saturated pixel on screen comes from inside the
+ * photographs. The single accent is reserved for the contact action.
+ *
+ * `[data-theme='dark']` carries direction "Câmara Escura", scoped to the portfolio
+ * lightbox: the photo opens full-screen over a dark room. It is a local scope, not a
+ * user-toggleable site theme.
+ *
+ * See docs/planning/direcao-arte.md. Palette read by eye from the supplied JPEGs and
+ * still pending calibration against the original files (PENDENCIAS.md).
+ *
+ * Breakpoints (documented here, applied inline — CSS vars are not valid in media
+ * queries): 375 / 640 / 768 / 1024 / 1440.
  */
+
 :root {
-  --color-bg: #ffffff;
-  --color-fg: #111111;
-  --color-placeholder-surface: #e5e5e5;
-  --color-placeholder-fg: #737373;
+  /* ── Colour · surfaces ─────────────────────────────────────────────── */
+  --color-surface: #ebeae6; /* mat board — page ground */
+  --color-surface-raised: #f6f5f2; /* cards, inputs, sticky header */
+  --color-surface-sunken: #dedcd5; /* solid block where a photo is missing; LQIP base */
 
-  --space-1: 0.25rem;
-  --space-2: 0.5rem;
-  --space-3: 1rem;
-  --space-4: 1.5rem;
-  --space-5: 2.5rem;
-  --space-6: 4rem;
+  /* ── Colour · content ──────────────────────────────────────────────── */
+  --color-text: #171613; /* 15.0:1 on surface — AAA */
+  --color-text-muted: #57544d; /* 6.3:1 on surface — AA */
+  --color-rule: #c9c6be; /* 1px hairline — the only divider in the system */
 
-  --font-body: system-ui, sans-serif;
+  /* ── Colour · action (contact only) ────────────────────────────────── */
+  --color-accent: #8c3f22; /* 6.1:1 on surface — AA */
+  --color-accent-hover: #a34d2c;
+  --color-on-accent: #f6f5f2; /* 7.3:1 on accent — AA */
 
-  --ease-standard: cubic-bezier(0.4, 0, 0.2, 1);
-  --duration-fast: 150ms;
-  --duration-standard: 300ms;
+  /* ── Colour · state ────────────────────────────────────────────────── */
+  --color-focus: var(--color-accent);
+  --color-selection-bg: var(--color-text);
+  --color-selection-text: var(--color-surface);
+
+  /* ── Typography · families ─────────────────────────────────────────── */
+  --font-sans: 'Archivo', ui-sans-serif, system-ui, sans-serif;
+  --font-serif: 'Newsreader', ui-serif, Georgia, serif;
+
+  /* ── Typography · sizes ────────────────────────────────────────────── */
+  --text-display: clamp(2.75rem, 9vw, 7.25rem);
+  --text-title: clamp(1.5rem, 3.4vw, 2.375rem);
+  --text-subtitle: 1.0625rem;
+  --text-essay: clamp(1.0625rem, 1.15vw, 1.1875rem);
+  --text-body: 1rem;
+  --text-caption: 0.75rem;
+  --text-label: 0.6875rem;
+
+  /* ── Typography · line heights ─────────────────────────────────────── */
+  --leading-display: 0.9;
+  --leading-title: 1.04;
+  --leading-tight: 1.2;
+  --leading-body: 1.55;
+  --leading-essay: 1.62;
+
+  /* ── Typography · tracking ─────────────────────────────────────────── */
+  --tracking-display: -0.025em;
+  --tracking-title: -0.018em;
+  --tracking-label: 0.18em;
+
+  /* ── Typography · variable axes ────────────────────────────────────── */
+  --width-display: 118; /* Archivo `wdth` — expanded, display only */
+  --width-title: 112;
+  --width-subtitle: 104;
+  --width-base: 100;
+
+  /* ── Typography · measure ──────────────────────────────────────────── */
+  --measure-essay: 62ch;
+  --measure-body: 68ch;
+
+  /* ── Space ─────────────────────────────────────────────────────────── */
+  --space-1: 0.25rem; /*   4 */
+  --space-2: 0.5rem; /*   8 */
+  --space-3: 0.75rem; /*  12 */
+  --space-4: 1rem; /*  16 */
+  --space-5: 1.5rem; /*  24 */
+  --space-6: 2rem; /*  32 */
+  --space-7: 3rem; /*  48 */
+  --space-8: 4rem; /*  64 */
+  --space-9: 6rem; /*  96 */
+  --space-10: 8rem; /* 128 */
+  --space-11: 12rem; /* 192 */
+
+  /* ── Layout ────────────────────────────────────────────────────────── */
+  --space-mat: clamp(1.25rem, 5vw, 5.5rem); /* page outer margin */
+  --space-band: clamp(4rem, 9vw, 9rem); /* vertical rhythm between sections */
+  --width-container: 90rem; /* 1440 */
+  --width-prose: 46rem;
+
+  /**
+   * The weighted mat: in print framing the bottom margin is larger than the other
+   * three, because the eye reads the geometric centre as slightly low. Every photo
+   * in the site is mounted this way.
+   */
+  --mat-inline: 1;
+  --mat-block-start: 1;
+  --mat-block-end: 1.35;
+
+  /* ── Border ────────────────────────────────────────────────────────── */
+  --border-width: 1px;
+  --radius: 0; /* no rounded corners anywhere in this system */
+
+  /* ── Motion ────────────────────────────────────────────────────────── */
+  --ease-reveal: cubic-bezier(0.16, 1, 0.3, 1); /* photo + hero entrance */
+  --ease-quiet: cubic-bezier(0.33, 0, 0.12, 1); /* hover, focus, button, menu */
+  --ease-veil: cubic-bezier(0.76, 0, 0.24, 1); /* reveal veil, lightbox, route */
+
+  --duration-1: 180ms;
+  --duration-2: 320ms;
+  --duration-3: 620ms;
+  --duration-4: 1100ms;
+
+  /* Exit reads faster than entrance (~65%) so the UI stays responsive. */
+  --duration-exit: 210ms;
+  --stagger: 60ms;
+
+  /* ── Elevation ─────────────────────────────────────────────────────── */
+  --z-base: 0;
+  --z-sticky: 20;
+  --z-header: 40;
+  --z-overlay: 100;
+  --z-lightbox: 200;
+  --z-skip-link: 1000;
+
+  /* ── Target sizes ──────────────────────────────────────────────────── */
+  --target-min: 44px;
+}
+
+/**
+ * Direction B — "Câmara Escura". Scoped, not global: applied to the portfolio
+ * lightbox so the photograph opens over a dark room. Every token below is a
+ * redefinition of one above, so any component styled through the tokens works in
+ * both scopes without knowing which one it is in.
+ */
+[data-theme='dark'] {
+  --color-surface: #131211;
+  --color-surface-raised: #1d1b19;
+  --color-surface-sunken: #24211e;
+
+  --color-text: #e9e5dc; /* 15.2:1 on surface — AAA */
+  --color-text-muted: #9c968a; /* 6.3:1 on surface — AA */
+  --color-rule: #34302b;
+
+  --color-accent: #c2643e; /* 4.6:1 on surface — AA */
+  --color-accent-hover: #d4744c;
+  --color-on-accent: #131211;
+
+  --color-selection-bg: var(--color-text);
+  --color-selection-text: var(--color-surface);
+
+  color-scheme: dark;
 }

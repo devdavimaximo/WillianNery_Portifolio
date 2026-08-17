@@ -1,7 +1,20 @@
+/**
+ * Base layer — reset, document defaults and global a11y affordances.
+ * Everything here reads from tokens.css; no raw hex, no hard-coded size.
+ */
+
 *,
 *::before,
 *::after {
   box-sizing: border-box;
+}
+
+html {
+  /* Lenis drives smooth scroll; this is the fallback for anchor jumps. */
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+  /* The header is sticky, so anchor targets must clear it instead of hiding under it. */
+  scroll-padding-top: 5rem;
 }
 
 html,
@@ -11,43 +24,138 @@ body {
 }
 
 body {
-  background: var(--color-bg);
-  color: var(--color-fg);
-  font-family: var(--font-body);
+  background: var(--color-surface);
+  color: var(--color-text);
+  font-family: var(--font-sans);
+  font-size: var(--text-body);
+  line-height: var(--leading-body);
+  font-variation-settings: 'wdth' var(--width-base);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  /* No element may push the page sideways. */
+  overflow-x: hidden;
 }
 
-img {
-  max-width: 100%;
+::selection {
+  background: var(--color-selection-bg);
+  color: var(--color-selection-text);
+}
+
+img,
+picture,
+video,
+svg {
   display: block;
+  max-width: 100%;
+}
+
+/* Media always declares its own box, so nothing reflows on load (CLS). */
+img {
+  height: auto;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+  color: inherit;
+}
+
+button,
+a {
+  /* Removes the 300ms tap delay without disabling pinch zoom. */
+  touch-action: manipulation;
+  /**
+   * The default blue flash belongs to no palette here. Suppressed deliberately —
+   * every interactive element in the system paints its own :active state.
+   */
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Section headings are link targets; keep them clear of the sticky header. */
+:target,
+[id] {
+  scroll-margin-top: 5rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+figure,
+blockquote {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 500;
+  text-wrap: balance;
+}
+
+/* URLs, file names and user content reflow instead of breaking the layout. */
+a,
+code,
+.wraps-anywhere {
+  overflow-wrap: anywhere;
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-focus);
+  outline-offset: 3px;
+}
+
+/* Only remove the ring where a component paints its own visible focus state. */
+:focus:not(:focus-visible) {
+  outline: none;
 }
 
 .skip-link {
   position: absolute;
   left: -9999px;
   top: 0;
-  z-index: 100;
-  padding: var(--space-2) var(--space-3);
-  background: var(--color-bg);
-  color: var(--color-fg);
+  z-index: var(--z-skip-link);
+  padding: var(--space-3) var(--space-4);
+  background: var(--color-accent);
+  color: var(--color-on-accent);
+  font-size: var(--text-label);
+  font-weight: 600;
+  letter-spacing: var(--tracking-label);
+  text-transform: uppercase;
+  text-decoration: none;
 }
 
 .skip-link:focus {
-  left: var(--space-2);
-  top: var(--space-2);
+  left: var(--space-4);
+  top: var(--space-4);
 }
 
-.placeholder-block {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 60vh;
-  background: var(--color-placeholder-surface);
-  color: var(--color-placeholder-fg);
-  text-align: center;
-  padding: var(--space-4);
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
 }
 
 @media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
   *,
   *::before,
   *::after {

@@ -1,0 +1,103 @@
+.figure {
+  /* One knob drives the whole mat, so the ratios below stay proportional. */
+  --mat-size: clamp(var(--space-4), 3.5vw, var(--space-7));
+
+  margin: 0;
+  background-color: var(--color-surface);
+}
+
+/* No mat at all — full-bleed hero. */
+.flush {
+  --mat-size: 0px;
+}
+
+/**
+ * The weighted mat. In print framing the bottom margin is larger than the other
+ * three, because the eye reads the geometric centre as slightly low. The caption
+ * sits inside the mat, above that heavier bottom edge — exactly where the label
+ * goes on a matted print. Ratios live in tokens.css.
+ */
+.mat {
+  padding-block-start: calc(var(--mat-size) * var(--mat-block-start));
+  padding-block-end: calc(var(--mat-size) * var(--mat-block-end));
+  padding-inline: calc(var(--mat-size) * var(--mat-inline));
+}
+
+.plate {
+  position: relative;
+  overflow: hidden;
+  /* Tonal ground under the LQIP, and the whole surface when no photo exists. */
+  background-color: var(--color-surface-sunken);
+  /* The blurred thumbnail is set inline per photo; the photo arrives on top of it. */
+  background-size: cover;
+  background-position: center;
+}
+
+.plate picture {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/**
+ * Only transform is animated on reveal, and only figures that actually reveal
+ * get a promoted layer — a permanent `will-change` on every photograph would
+ * keep compositor layers alive for the whole page.
+ */
+.revealing .image {
+  will-change: transform;
+}
+
+/**
+ * Pre-reveal state, declared in CSS so the prerendered HTML never paints an
+ * uncovered photo that then snaps back. Only applied when motion is welcome and
+ * only to figures that opted in — the hero never does, so a JS failure can never
+ * hide the LCP image.
+ */
+.veil {
+  position: absolute;
+  inset: 0;
+  background-color: var(--color-surface);
+  pointer-events: none;
+  transform: translateY(-101%);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .revealing .veil {
+    transform: translateY(0);
+  }
+}
+
+/* Solid block standing in for a photograph we do not have yet. */
+.pending {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--space-5);
+  text-align: center;
+  border: var(--border-width) dashed var(--color-rule);
+}
+
+.pendingText {
+  max-width: 32ch;
+  font-family: var(--font-sans);
+  font-size: var(--text-label);
+  font-weight: 600;
+  line-height: var(--leading-body);
+  letter-spacing: var(--tracking-label);
+  text-transform: uppercase;
+  color: var(--color-text-muted);
+}
+
+.caption {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  margin-top: var(--space-4);
+}

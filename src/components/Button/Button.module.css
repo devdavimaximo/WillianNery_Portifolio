@@ -1,0 +1,93 @@
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-2);
+
+  /* Comfortably above the 44px touch target minimum at every size. */
+  min-height: var(--target-min);
+  min-width: var(--target-min);
+  padding: var(--space-3) var(--space-5);
+
+  font-family: var(--font-sans);
+  font-size: var(--text-label);
+  font-weight: 600;
+  line-height: var(--leading-tight);
+  letter-spacing: var(--tracking-label);
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: none;
+
+  border: var(--border-width) solid transparent;
+  border-radius: var(--radius);
+  cursor: pointer;
+
+  transition:
+    background-color var(--duration-1) var(--ease-quiet),
+    border-color var(--duration-1) var(--ease-quiet),
+    color var(--duration-1) var(--ease-quiet),
+    transform var(--duration-1) var(--ease-quiet);
+}
+
+/**
+ * The only saturated surface in the system. Reserved for the contact action —
+ * if two of these appear in the same viewport, one of them is wrong.
+ */
+.primary {
+  background-color: var(--color-accent);
+  color: var(--color-on-accent);
+}
+
+.primary:hover {
+  background-color: var(--color-accent-hover);
+}
+
+/* Secondary: outlined, subordinate, no colour. */
+.quiet {
+  background-color: transparent;
+  color: var(--color-text);
+  border-color: var(--color-rule);
+}
+
+.quiet:hover {
+  border-color: var(--color-text);
+}
+
+.button:active:not(:disabled):not([aria-disabled='true']) {
+  transform: translateY(1px);
+}
+
+.button:disabled,
+.button[aria-disabled='true'] {
+  opacity: 0.45;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.full {
+  width: 100%;
+}
+
+/* Spinner is decorative; the accessible state comes from aria-busy on the button. */
+.spinner {
+  width: 0.85em;
+  height: 0.85em;
+  border: 2px solid currentColor;
+  border-right-color: transparent;
+  border-radius: 50%;
+  animation: spin 620ms linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .spinner {
+    animation: none;
+    border-right-color: currentColor;
+    opacity: 0.5;
+  }
+}

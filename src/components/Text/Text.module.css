@@ -14,7 +14,7 @@
   line-height: var(--leading-display);
   letter-spacing: var(--tracking-display);
   font-variation-settings: 'wdth' var(--width-display);
-  text-wrap: balance;
+  text-wrap: pretty;
   color: var(--color-text);
 }
 

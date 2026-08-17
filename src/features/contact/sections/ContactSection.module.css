@@ -1,0 +1,45 @@
+.channels {
+  display: grid;
+  gap: var(--space-8);
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+.channel {
+  padding: var(--space-6);
+  border: var(--border-width) solid var(--color-rule);
+  background: var(--color-surface-raised);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+
+.channelTitle {
+  font-size: clamp(1.25rem, 2vw, 1.5rem);
+  font-weight: 600;
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.025em;
+  color: var(--color-accent);
+}
+
+.channelText {
+  margin: 0;
+  font-size: 0.9375rem;
+  line-height: 1.6;
+  color: var(--color-text-muted);
+}
+
+.channel :global(a) {
+  align-self: flex-start;
+}
+
+@media (min-width: 48rem) {
+  .channels {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: var(--space-7);
+  }
+
+  .channel {
+    padding: var(--space-7);
+  }
+}

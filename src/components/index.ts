@@ -1,6 +1,7 @@
 export { Button } from './Button/Button'
 export { Container } from './Container/Container'
 export { Figure } from './Figure/Figure'
+export { Lightbox } from './Lightbox/Lightbox'
 export { Section } from './Section/Section'
 export { SiteFooter } from './SiteFooter/SiteFooter'
 export type { FooterLink } from './SiteFooter/SiteFooter'

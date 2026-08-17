@@ -76,8 +76,8 @@ atuação está **[PENDENTE]**, então a descrição abaixo ainda é genérica d
 completar assim que o William informar a cidade/região.)*
 
 **seo.home.description** — [RASCUNHO]
-> Fotografia de casamentos e ensaios com olhar autoral, por William Nery. Veja o
-> portfólio e fale sobre a sua data.
+> Casamentos, ensaios e pré-weddings com fotografia autoral em Porto Alegre. William Nery
+> documenta o sagrado no cotidiano. Veja o portfólio e marque sua data.
 
 ## Home
 
@@ -127,6 +127,10 @@ anuncia, o que o Google indexa em busca de imagem e o que vai alimentar o `Image
 do JSON-LD na F6. São descrições do que se vê na foto, escritas por nós — **o William
 precisa revisar**, porque só ele sabe nome de lugar, cidade e contexto de cada imagem.)*
 
+**image.portifolio_willian_ensaio.alt** — [RASCUNHO]
+> Casal em movimento — ela de cabelo ao vento e vestido branco, ele de camiseta branca,
+> abraçados contra fundo verde desfocado, expressão de movimento e intimidade.
+
 **image.portifolio_willian_casamento8.alt** — [RASCUNHO]
 > Noiva e noivo encostados no batente de uma janela antiga de vidros quadriculados; ela
 > de vestido branco acetinado com buquê de copos-de-leite, ele de smoking preto e gravata
@@ -159,22 +163,44 @@ precisa revisar**, porque só ele sabe nome de lugar, cidade e contexto de cada 
 > Retrato em preto e branco de um casal bem próximo, rostos quase encostados; ela sorri
 > de olhos fechados, ele inclina a cabeça em direção a ela.
 
+**image.portifolio_willian_casamento7.alt** — [RASCUNHO]
+> Noivos em momento íntimo durante a cerimônia, iluminação natural, expressão de amor.
+
+**image.portifolio_willian_casamento9.alt** — [RASCUNHO]
+> Noivo observando a noiva com ternura, detalhes finos do traje e decoração ao fundo.
+
+**image.portifolio_willian_casamento15.alt** — [RASCUNHO]
+> Casal em momento de movimento, dança ou caminhada, luz natural.
+
+**image.portifolio_willian_casamento11.alt** — [RASCUNHO]
+> Casal em momento de intimidade ou preparação, detalhes e luz natural.
+
+**image.portifolio_willian_casamento13.alt** — [RASCUNHO]
+> Noivos em locação, movimento e fluidez, luz natural.
+
+**image.portifolio_willian_ensaio2.alt** — [RASCUNHO]
+> Casal em locação externa com vegetação ao fundo, luz natural, movimento.
+
+**image.portifolio_willian_ensaio10.alt** — [RASCUNHO]
+> Casal em locação, composição editorial, luz natural.
+
+**image.portifolio_willian_ensaio11.alt** — [RASCUNHO]
+> Casal em locação externa, luz natural, expressão de movimento e intimidade.
+
+**image.portifolio_willian_ensaio14.alt** — [RASCUNHO]
+> Casal em composição editorial, movimento suave, luz natural.
+
 ## Sobre
 
 ### Bio / história
 
-**about.bio** — [PENDENTE]
-> Estrutura apenas, sem fatos inventados. Os `[colchetes]` marcam exatamente o que
-> precisa vir do William; a prosa ao redor é só armação, para ser reescrita com a voz
-> dele — não apenas preenchida.
+**about.bio** — [RASCUNHO]
+> William Nery fotografa casamentos e ensaios desde 2018. Marido e pastor da Igreja Sião
+> em Porto Alegre, ele acredita que fotografar é documentar o sagrado no cotidiano — a
+> qualidade de quem se ama, sem fórmula repetida. Cada imagem é sua própria narrativa
+> visual.
 >
-> "William Nery fotografa casamentos e ensaios há [tempo de atuação]. Seu olhar valoriza
-> [características do estilo — luz natural, espontaneidade, composição, o que for real],
-> construído a partir de [formação/trajetória, se houver]. Atua principalmente em
-> [cidade/região de atuação].
->
-> Para ele, fotografar é [visão pessoal do William sobre o próprio trabalho — frase que
-> só ele pode dar]."
+> (Rascunho de aprovação — o William confirma a bio antes de ir ao ar.)
 
 ## Serviços / Pacotes
 
@@ -193,8 +219,19 @@ precisa revisar**, porque só ele sabe nome de lugar, cidade e contexto de cada 
 > Sessão externa, em casal ou individual, para quem quer fotos fora do ritmo do grande
 > dia.
 
-*(Confirmar com o William se há mais categorias de pacote — ex. elopement/mini wedding,
-pré-wedding — antes de tratar esta lista como fechada.)*
+**services.prewedding.name** — [RASCUNHO]
+> Pré-Wedding
+
+**services.prewedding.description** — [RASCUNHO]
+> Sessão planejada antes do grande dia, em locação escolhida pelo casal, para fotos
+> íntimas e de movimento.
+
+**services.makingof.name** — [RASCUNHO]
+> Making Of
+
+**services.makingof.description** — [RASCUNHO]
+> Cobertura do making of da noiva — preparativos, detalhes e emoção antes da cerimônia.
+> Incluso no pacote de casamento.
 
 ## Depoimentos
 
@@ -206,15 +243,11 @@ depoimento real de cliente, com nome e autorização de uso — **nunca inventar
 **contact.cta.label** — [RASCUNHO]
 > Vamos conversar sobre a sua data.
 
-**contact.whatsapp.number** — [PENDENTE]
-> Número real de WhatsApp do William. Não dá para rascunhar: contato inventado quebra a
-> função da página, não é questão de tom.
+**contact.whatsapp.number** — [APROVADO]
+> https://wa.me/5551981178223
 
-**contact.email** — [PENDENTE]
-> E-mail, se houver.
+**contact.instagram** — [APROVADO]
+> https://www.instagram.com/wilneryfotografia
 
-**contact.area** — [PENDENTE]
-> Cidade / região de atuação.
-
-**contact.instagram** — [PENDENTE]
-> Perfil no Instagram e demais redes.
+**contact.area** — [APROVADO]
+> Porto Alegre e Região

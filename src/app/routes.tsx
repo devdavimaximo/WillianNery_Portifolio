@@ -13,11 +13,19 @@ export const routes: RouteRecord[] = [
         lazy: () => import('../features/home/HomePage'),
       },
       {
-        // Página interna de verificação do design system (F1). Noindex, sem link
-        // no site, removida antes do lançamento — ver PENDENCIAS.md.
-        path: 'design-system',
-        entry: 'src/features/design-system/DesignSystemPage.tsx',
-        lazy: () => import('../features/design-system/DesignSystemPage'),
+        path: 'portfolio',
+        entry: 'src/features/portfolio/PortfolioPage.tsx',
+        lazy: () => import('../features/portfolio/PortfolioPage'),
+      },
+      {
+        path: 'about',
+        entry: 'src/features/about/AboutPage.tsx',
+        lazy: () => import('../features/about/AboutPage'),
+      },
+      {
+        path: 'contact',
+        entry: 'src/features/contact/ContactPage.tsx',
+        lazy: () => import('../features/contact/ContactPage'),
       },
     ],
   },

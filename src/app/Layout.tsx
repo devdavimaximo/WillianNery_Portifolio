@@ -4,17 +4,15 @@ import { copy } from '../content/copy'
 import { useSmoothScroll } from '../hooks/useSmoothScroll'
 
 /**
- * Navigation only points at destinations that exist. "Sobre" and "Serviços" are F4
- * pages and are deliberately absent until they do — a nav item that leads nowhere is
- * a broken promise, and hiding it costs less than shipping it dead.
- *
- * The WhatsApp action is likewise withheld while the real number is pending
- * (content/copy.md); the Home carries the call to action in the meantime.
+ * Navigation points at all pages that now exist.
+ * The WhatsApp action is now live (content/copy.md).
  */
 function navItems() {
   return [
-    { label: copy('nav.portfolio'), to: '#trabalho' },
-    { label: copy('nav.contact'), to: '#contato' },
+    { label: copy('nav.portfolio'), to: '/portfolio' },
+    { label: copy('nav.about'), to: '/about' },
+    { label: copy('nav.services'), to: '/about' },
+    { label: copy('nav.contact'), to: '/contact' },
   ]
 }
 

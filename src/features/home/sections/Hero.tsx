@@ -4,9 +4,9 @@ import { copy, copyStatus, pendingNote } from '../../../content/copy'
 import { getImage } from '../../../lib/images'
 import styles from './Hero.module.css'
 
-/** Provisional pick — the only landscape photograph in the set, so it is the one that
- *  fills a wide frame without being cropped. Art direction still to confirm. */
-const HERO_SLUG = 'portifolio_willian_casamento8'
+/** Movement and intimacy — casal com cabelo ao vento, dinamismo natural.
+ *  Art direction approved by Davi (2026-08-17). */
+const HERO_SLUG = 'portifolio_willian_ensaio'
 
 /**
  * Opening of the site: the photograph, then the headline under it.

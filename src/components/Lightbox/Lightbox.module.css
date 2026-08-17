@@ -1,0 +1,147 @@
+.backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(19, 18, 17, 0.98);
+  backdrop-filter: blur(8px);
+  padding: var(--space-4);
+  animation: fadeIn 180ms var(--ease-quiet);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .backdrop {
+    animation: none;
+  }
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 90vw;
+  max-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+
+.figure {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 0;
+}
+
+.figure :global(figure) {
+  height: 100%;
+  width: 100%;
+}
+
+.figure :global(picture),
+.figure :global(img) {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 0 var(--space-3);
+  font-size: 0.875rem;
+  color: var(--color-text-muted);
+}
+
+.counter {
+  margin: 0;
+  font-variant-numeric: tabular-nums;
+}
+
+.category {
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 0.6875rem;
+}
+
+.close {
+  position: absolute;
+  top: var(--space-3);
+  right: var(--space-3);
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  border: 1px solid var(--color-rule);
+  color: var(--color-text);
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: all 180ms var(--ease-quiet);
+}
+
+.close:hover {
+  background: var(--color-surface-raised);
+  border-color: var(--color-text);
+}
+
+.close:active {
+  transform: scale(0.95);
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  gap: var(--space-4);
+}
+
+.prev,
+.next {
+  flex: 1;
+  padding: var(--space-3) var(--space-2);
+  background: transparent;
+  border: 1px solid var(--color-rule);
+  color: var(--color-text);
+  font-size: 2rem;
+  cursor: pointer;
+  transition: all 180ms var(--ease-quiet);
+}
+
+.prev:hover,
+.next:hover {
+  background: var(--color-surface-raised);
+  border-color: var(--color-text);
+}
+
+.prev:active,
+.next:active {
+  transform: scale(0.98);
+}
+
+@media (max-width: 48rem) {
+  .backdrop {
+    padding: var(--space-3);
+  }
+
+  .info {
+    flex-direction: column;
+    gap: var(--space-2);
+  }
+
+  .close {
+    width: 36px;
+    height: 36px;
+    font-size: 1.25rem;
+  }
+}

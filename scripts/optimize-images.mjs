@@ -150,9 +150,14 @@ async function main() {
   let derivedTotal = 0
   let rebuilt = 0
 
-  for (const fileName of files) {
-    const slug = fileName.replace(SOURCE_PATTERN, '')
-    const entry = await processFile(fileName, previous[slug])
+  const results = await Promise.all(
+    files.map((fileName) => {
+      const slug = fileName.replace(SOURCE_PATTERN, '')
+      return processFile(fileName, previous[slug])
+    }),
+  )
+
+  for (const entry of results) {
     const { skipped, ...record } = entry
     manifest[record.slug] = record
 

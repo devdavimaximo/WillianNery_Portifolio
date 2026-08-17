@@ -1,0 +1,25 @@
+/**
+ * Tokens provisórios (F0 — setup técnico).
+ * Paleta, tipografia e motion definitivos vêm da F1 (Design System &
+ * Identidade), a partir da direção de arte fechada com o William.
+ * Não tratar estes valores como identidade visual final.
+ */
+:root {
+  --color-bg: #ffffff;
+  --color-fg: #111111;
+  --color-placeholder-surface: #e5e5e5;
+  --color-placeholder-fg: #737373;
+
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 1rem;
+  --space-4: 1.5rem;
+  --space-5: 2.5rem;
+  --space-6: 4rem;
+
+  --font-body: system-ui, sans-serif;
+
+  --ease-standard: cubic-bezier(0.4, 0, 0.2, 1);
+  --duration-fast: 150ms;
+  --duration-standard: 300ms;
+}

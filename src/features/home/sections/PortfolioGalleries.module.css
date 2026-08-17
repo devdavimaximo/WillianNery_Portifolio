@@ -3,10 +3,6 @@
   border-top: var(--border-width) solid var(--color-rule);
 }
 
-.section:first-of-type {
-  border-top: none;
-}
-
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));

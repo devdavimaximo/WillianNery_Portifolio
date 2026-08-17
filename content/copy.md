@@ -84,7 +84,7 @@ completar assim que o William informar a cidade/região.)*
 ### Herói
 
 **home.hero.headline** — [RASCUNHO]
-> Fotografia que se aproxima do silêncio de uma cena bem vivida.
+> O silêncio de uma cena bem vivida.
 
 **home.hero.subtitle** — [RASCUNHO]
 > William Nery fotografa casamentos e ensaios com um olhar autoral — cada imagem pensada

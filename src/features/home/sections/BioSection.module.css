@@ -31,6 +31,13 @@
 .photo {
   width: 100%;
   max-width: 360px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.photo :global(figure) {
+  border-radius: 50%;
+  overflow: hidden;
 }
 
 @media (min-width: 48rem) {

@@ -1,9 +1,8 @@
-import { useState } from 'react'
+import { useRef, useState } from 'react'
 import { Container, Figure } from '../../../components'
 import { copy } from '../../../content/copy'
 import { Lightbox } from '../../../components/Lightbox/Lightbox'
 import type { LightboxImage } from '../../../components/Lightbox/Lightbox'
-import { useStaggerReveal } from '../../../hooks/useStaggerReveal'
 import styles from './PortfolioGalleries.module.css'
 
 // All photos in one portfolio, mixed categories
@@ -30,7 +29,7 @@ export function PortfolioGalleries() {
   const [lightboxOpen, setLightboxOpen] = useState(false)
   const [lightboxIndex, setLightboxIndex] = useState(0)
 
-  const gridRef = useStaggerReveal<HTMLDivElement>(`.${styles.photo}`)
+  const gridRef = useRef<HTMLDivElement>(null)
 
   const lightboxImages: LightboxImage[] = ALL_PORTFOLIO.map((slug) => ({
     slug,

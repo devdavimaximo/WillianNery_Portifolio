@@ -25,6 +25,7 @@
 
 .plate {
   position: relative;
+  width: 100%;
   overflow: hidden;
   /* Tonal ground under the LQIP, and the whole surface when no photo exists. */
   background-color: var(--color-surface-sunken);

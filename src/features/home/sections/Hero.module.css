@@ -3,6 +3,23 @@
  * side-by-side on desktop with balanced visual weight.
  */
 
+.headline {
+  font-family: var(--font-sans);
+  font-size: var(--text-display);
+  font-weight: 500;
+  line-height: var(--leading-display);
+  letter-spacing: var(--tracking-display);
+  font-variation-settings: 'wdth' var(--width-display);
+  color: var(--color-text);
+  margin: 0;
+}
+
+@media (min-width: 64rem) {
+  .headline {
+    word-break: keep-all;
+  }
+}
+
 .hero {
   display: flex;
   flex-direction: column;
@@ -18,6 +35,12 @@
   flex-direction: column;
   gap: var(--space-5);
   padding-block: var(--space-7) var(--space-6);
+}
+
+.text > div:first-child {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-5);
 }
 
 .actions {

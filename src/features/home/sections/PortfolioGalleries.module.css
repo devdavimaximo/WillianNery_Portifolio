@@ -13,8 +13,6 @@
 .photo {
   cursor: pointer;
   min-width: 0;
-  content-visibility: auto;
-  contain-intrinsic-size: auto 32rem;
   transition: opacity 180ms var(--ease-quiet);
 }
 

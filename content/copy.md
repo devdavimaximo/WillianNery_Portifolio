@@ -84,7 +84,7 @@ completar assim que o William informar a cidade/região.)*
 ### Herói
 
 **home.hero.headline** — [RASCUNHO]
-> O silêncio de uma cena bem vivida.
+> O silêncio<br>de uma cena<br>bem vivida.
 
 **home.hero.subtitle** — [RASCUNHO]
 > William Nery fotografa casamentos e ensaios com um olhar autoral — cada imagem pensada
@@ -195,12 +195,12 @@ precisa revisar**, porque só ele sabe nome de lugar, cidade e contexto de cada 
 ### Bio / história
 
 **about.bio** — [RASCUNHO]
-> William Nery fotografa casamentos e ensaios desde 2018. Marido e pastor da Igreja Sião
+> William Nery fotografa casamentos e ensaios desde 20XX. Marido e pastor da Igreja Sião
 > em Porto Alegre, ele acredita que fotografar é documentar o sagrado no cotidiano — a
 > qualidade de quem se ama, sem fórmula repetida. Cada imagem é sua própria narrativa
 > visual.
 >
-> (Rascunho de aprovação — o William confirma a bio antes de ir ao ar.)
+> (Rascunho de aprovação, nada disso vai para o ar sem antes ser reescrito de forma correta e fiel.)
 
 ## Serviços / Pacotes
 

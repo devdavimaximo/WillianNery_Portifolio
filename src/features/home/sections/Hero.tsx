@@ -1,5 +1,5 @@
 import { Head } from 'vite-react-ssg'
-import { Button, Caption, Container, Display, Essay, Figure } from '../../../components'
+import { Button, Caption, Container, Essay, Figure } from '../../../components'
 import { copy, copyStatus, pendingNote } from '../../../content/copy'
 import { getImage } from '../../../lib/images'
 import styles from './Hero.module.css'
@@ -51,7 +51,11 @@ export function Hero() {
       <Container>
         <div className={styles.text}>
           <div>
-            <Display id="hero-title">{copy('home.hero.headline')}</Display>
+            <h1
+              id="hero-title"
+              className={styles.headline}
+              dangerouslySetInnerHTML={{ __html: copy('home.hero.headline') }}
+            />
             <Essay>{copy('home.hero.subtitle')}</Essay>
           </div>
 

@@ -140,7 +140,9 @@ async function main() {
 
   const files = await readSources()
   if (files.length === 0) {
-    throw new Error('public/images/ está vazio — nada para derivar')
+    console.warn('⚠ public/images/ vazio — criando manifesto vazio')
+    await writeFile(MANIFEST, `${JSON.stringify({}, null, 2)}\n`)
+    return
   }
 
   const previous = await readPreviousManifest()

@@ -3,6 +3,8 @@
   "outputDirectory": "dist",
   "framework": "vite",
   "env": {
-    "NODE_VERSION": "22.19.0"
+    "NODE_VERSION": "22.19.0",
+    "SHARP_IGNORE_GLOBAL_LIBVIPS": "1",
+    "SHARP_LIBVIPS_BINARY_HOST_MIRROR": "https://github.com/lovell/sharp-libvips/releases/download/"
   }
 }

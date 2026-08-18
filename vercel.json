@@ -1,10 +1,16 @@
 {
+  "$schema": "https://openapi.vercel.sh/vercel.json",
   "buildCommand": "npm run build",
   "outputDirectory": "dist",
   "framework": "vite",
-  "env": {
-    "NODE_VERSION": "22.19.0",
-    "SHARP_IGNORE_GLOBAL_LIBVIPS": "1",
-    "SHARP_LIBVIPS_BINARY_HOST_MIRROR": "https://github.com/lovell/sharp-libvips/releases/download/"
-  }
+  "headers": [
+    {
+      "source": "/images/derived/(.*)",
+      "headers": [{ "key": "Cache-Control", "value": "public, max-age=86400, stale-while-revalidate=604800" }]
+    },
+    {
+      "source": "/fonts/(.*)",
+      "headers": [{ "key": "Cache-Control", "value": "public, max-age=2592000, stale-while-revalidate=31536000" }]
+    }
+  ]
 }

@@ -13,9 +13,11 @@ dist-ssr
 .vite-react-ssg-temp
 *.local
 
-# Variantes derivadas das fotos: geradas por `npm run images` (roda no prebuild).
-# Os ORIGINAIS em public/images/ continuam versionados — são a fonte da verdade.
-public/images/derived/
+# As variantes derivadas (public/images/derived/) SÃO versionadas de propósito:
+# gerar sharp/AVIF no build da Vercel estourava tempo e memória. Elas são geradas
+# localmente com `npm run images`, conferidas contra o original e commitadas junto
+# com o manifesto — o deploy só copia arquivo pronto.
+# Os ORIGINAIS em public/images/ continuam sendo a fonte da verdade.
 
 # Editor directories and files
 .vscode/*

@@ -4,13 +4,13 @@
   "version": "0.0.0",
   "type": "module",
   "engines": {
-    "node": ">=22.0.0",
-    "npm": ">=10.0.0"
+    "node": "22.x"
   },
   "scripts": {
     "dev": "vite-react-ssg dev",
     "images": "node scripts/optimize-images.mjs",
-    "prebuild": "npm run images",
+    "images:check": "node scripts/check-images.mjs",
+    "prebuild": "npm run images:check",
     "build": "tsc -b && vite-react-ssg build",
     "lint": "oxlint",
     "typecheck": "tsc -b --noEmit",
